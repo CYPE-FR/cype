@@ -35,15 +35,24 @@
     <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
 
     <style>
-        header {
+        /*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.video-background-holder {
   position: relative;
-  height: 40vh;
+  background-color: black;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
-  opacity: 2;
+  overflow: hidden;
 }
 
-header video {
+.video-background-holder video {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,18 +61,16 @@ header video {
   width: auto;
   height: auto;
   z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.video-background-content {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.video-background-overlay {
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
@@ -73,38 +80,34 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
-  }
-  header video {
-    display: none;
-  }
-}
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
     </style>
 </head>
 <body>
 
 
 
-    <div class="container">
-  
-        <header>
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="images/video.mp4" type="video/mp4">
-        </video>
-        <div class="container h-100">
-          <div class="d-flex h-100 text-center align-items-center">
-            <div class="w-100 text-white">
-              <h1 class="display-3 text-white">Video Header</h1>
-              <p class="lead mb-0 text-white">With HTML5 Video and Bootstrap 4</p>
-            </div>
-          </div>
-        </div>
-      </header>
-        
-      </div>
+  <!-- Background video -->
+<div class="video-background-holder">
+  <div class="video-background-overlay"></div>
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="images/video.mp4" type="video/mp4">
+    </video>
+  <div class="video-background-content container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      
+    </div>
+  </div>
+</div>
+<!-- End -->
+
 
 
 
