@@ -668,7 +668,6 @@ hr {
 
 ul,
 ol {
-    margin: 0 0 1.75em 1.25em;
     padding: 0;
 }
 
@@ -1063,7 +1062,6 @@ b {
 ol,
 ul {
     list-style: initial;
-    margin-left: 24px;
 }
 
 ol li,
