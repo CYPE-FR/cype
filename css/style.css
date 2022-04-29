@@ -804,7 +804,7 @@ dfn {
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url("../images/apple-touch-icon.png");
+    background-image: url("../images/lgo.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1566,7 +1566,7 @@ Back To Top Section
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/lgo.png");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1631,12 +1631,12 @@ Back To Top Section
 }
 
 .btn-primary {
-    background-color: #c1100B;
+    background-color: #b1291d;
     color: #ffffff !important;
 }
 
 .btn-primary:hover {
-    background-color: #c1100B !important;
+    background-color: #b1291d !important;
     color: #ffffff !important;
 }
 
@@ -1650,12 +1650,12 @@ Back To Top Section
 }
 
 .btn-primary.disabled {
-    background-color: #c1100B !important;
+    background-color: #b1291d !important;
     border-color: #FFFFFF !important;
 }
 
 .btn-primary.disabled:hover {
-    background-color: #c1100B !important;
+    background-color: #b1291d !important;
     color: #ffffff !important;
 }
 
@@ -1712,7 +1712,7 @@ Back To Top Section
 }
 
 .pagination>.active>a {
-    background: #c1100B;
+    background: #b1291d;
     color: #222222;
 }
 
@@ -1722,7 +1722,7 @@ Back To Top Section
 .pagination>.active>span:hover,
 .pagination>.active>a:focus,
 .pagination>.active>span:focus {
-    background: #c1100B;
+    background: #b1291d;
     color: #222222;
 }
 
@@ -3843,7 +3843,7 @@ Back To Top Section
 }
 
 .navbar-toggle .icon-bar {
-    background: #c1100B;
+    background: #b1291d;
 }
 
 .navbar-toggle {
@@ -3922,7 +3922,7 @@ Back To Top Section
 .navbar-main .nav>li.active>a,
 .navbar-main .nav>li>a:hover,
 .navbar-main .nav>li>a:focus {
-    color: #c1100B;
+    color: #b1291d;
     background-color: transparent;
 }
 
@@ -3931,7 +3931,7 @@ Back To Top Section
 .navbar-main .nav .open>a:focus {
     background-color: transparent;
     border-color: transparent;
-    color: #c1100B;
+    color: #b1291d;
 }
 
 .navbar-main .caret {
@@ -4003,7 +4003,7 @@ Back To Top Section
 }
 
 .header-1 .stiky .nav>li.active>a {
-    color: #c1100B;
+    color: #b1291d;
 }
 
 .header-1 .stiky .nav .open>a,
@@ -5507,7 +5507,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .fa-rounded {
-    background: #c1100B;
+    background: #b1291d;
     color: white;
     padding: 8% 9%;
     border-radius: 50%;
@@ -5518,7 +5518,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .icon-box-link {
-    color: #c1100B;
+    color: #b1291d;
 }
 
 .icon-box-link:hover {
