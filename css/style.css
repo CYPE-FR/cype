@@ -5564,3 +5564,9 @@ dl.hiw dd .team-2 .title,
     opacity: 0.5;
     z-index: 1;
   }
+
+  #img-fix  {
+      background: fixed url("../images/const.jpg") no-repeat center center;
+      background-size: cover;
+      height: 20vh;
+  }
