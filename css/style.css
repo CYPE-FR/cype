@@ -4007,7 +4007,7 @@ Back To Top Section
 .header-1 .stiky .nav .open>a,
 .header-1 .stiky .nav .open>a:hover,
 .header-1 .stiky .nav .open>a:focus {
-    color: #FFFFFF;
+    color: #b1291d;
 }
 
 .social-icon li {
@@ -5559,8 +5559,8 @@ dl.hiw dd .team-2 .title,
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: 0.4;
+    background-color: rgb(150, 46, 46);
+    opacity: 0.3;
     z-index: 1;
 }
 
