@@ -1,4 +1,8 @@
 @charset "UTF-8";
+:root {
+    --clcp: #b1291d;
+}
+
 
 /*
 Template Name: Home| PRODIG
@@ -1412,7 +1416,7 @@ ul.circle li:before {
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #FFFFFF;
+    background: (--clcp);
 }
 
 
