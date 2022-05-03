@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="container">
-            <!--<form onsubmit="sendEmail(); reset(); return false;">
+            <form onsubmit="sendEmail(); reset(); return false;">
                 <h3>get in touch</h3>
                 <input type="text" id="name" placeholder="your name" required>
                 <input type="email" id="email" placeholder="your email" required>
@@ -15,30 +15,7 @@
                 <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
                 <button type="submit">Send</button>
 
-            </form>-->
-            <form action="envoi.php" method="post" id="formContact">
-                Votre nom <span class="oblig">(obligatoire)</span> :<br />
-                <input name="nom" type="text" size="40" maxlength="200" />
-                <br />
-                <br />
-                Votre prénom <span class="oblig">(obligatoire)</span> :<br />
-                <input name="prenom" type="text" size="40" maxlength="200" />
-                <br />
-                <br />
-                Votre numéro de téléphone :<br />
-                <input name="tel" type="text" size="40" maxlength="10" />
-                <br />
-                <br />
-                Votre adresse email <span class="oblig">(obligatoire)</span> :<br />
-                <input name="mail" type="text" size="40" maxlength="200" />
-                <br />
-                <br />
-                Votre message <span class="oblig">(obligatoire)</span> : <br />
-                <textarea name="message" cols="60" rows="10"></textarea>
-                <br />
-                <br />
-                <input type="submit" value="Valider" />
-                </form>
+            </form>
         </div>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
