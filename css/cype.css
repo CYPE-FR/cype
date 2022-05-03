@@ -332,3 +332,22 @@
         top: 3px;
     }
 }
+
+#partenaire {
+    background: #f8f9fa;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#partenaire img {
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+}
+
+#partenaire img:hover {
+    filter: none;
+    transform: scale(1.15);
+}

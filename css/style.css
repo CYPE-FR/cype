@@ -4931,15 +4931,6 @@ dl.hiw dd .team-2 .title,
     border-color: #ffffff !important;
 }
 
-#caro-project-2 {
-    /*.owl-controls .owl-nav [class*=owl-] {
-  	&:hover {
-  	    color: $white;
-  	    border-color: $white;
-  	}
-  }*/
-}
-
 #caro-project-2 .owl-nav {
     position: relative;
     z-index: 2;
@@ -5022,13 +5013,13 @@ dl.hiw dd .team-2 .title,
  */
 
 .footer {
-    padding: 80px 0 0 0;
+    padding: 55px 0 0 0;
     background-color: #0c1f38;
     color: #ffffff;
 }
 
 .footer>.container {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .footer-item .logo-bottom {
@@ -5081,7 +5072,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .footer-item .footer-sosmed a .item:hover {
-    background-color: #FFFFFF;
+    background-color: var(--clcp);
 }
 
 .footer-item .footer-sosmed a .item .fa {
