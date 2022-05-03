@@ -7,6 +7,10 @@
  * HOME PAGE
  * ================================================================================================== */
 
+h3 {
+    color: var(--clcp);
+}
+
 
 /* Barner */
 
@@ -288,10 +292,6 @@
     color: var(--clcp);
 }
 
-#equipe h3 {
-    color: var(--clcp);
-}
-
 #equipe .team-slider .owl-dots {
     position: absolute;
     left: 0;
@@ -340,7 +340,7 @@
 }
 
 #partenaire img {
-    max-width: 90%;
+    max-width: 95%;
     transition: all 0.4s ease-in-out;
     display: inline-block;
     padding: 15px 0;
@@ -354,6 +354,6 @@
 
 @media screen and (max-width:600px) {
     #partenaire img {
-        max-width: 70%;
+        max-width: 80%;
     }
 }
