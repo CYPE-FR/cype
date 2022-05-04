@@ -4752,6 +4752,9 @@ dl.hiw dd .team-2 .title,
     border-right: 1px solid #ccc;
 }
 
+.border-bottom {
+    border-bottom: 1px solid #ccc;
+}
 .about-img {
     position: relative;
     min-height: 370px;
