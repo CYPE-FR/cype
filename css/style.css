@@ -1088,7 +1088,7 @@ blockquote {
 }
 
 .jumbo-heading {
-    color: #0c1f38;
+    color: #fff;
     font-size: 20px;
     position: relative;
 }
@@ -1522,7 +1522,7 @@ Back To Top Section
     width: 100%;
     margin-bottom: 30px;
     position: relative;
-    background-color: #b1291d02;
+    background-color: #b1291d;
 }
 
 .media-anim .media img,
@@ -1536,7 +1536,6 @@ Back To Top Section
 
 .media-anim:hover .media img,
 .feature-box-8:hover .media img {
-    opacity: 0.3;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     filter: alpha(opacity=30);
     -webkit-transform: scale(1.05, 1.05);
@@ -4767,7 +4766,7 @@ dl.hiw dd .team-2 .title,
     bottom: -50%;
     transform: translateY(-50%);
     z-index: 1;
-    border: 10px solid #FFFFFF;
+    border: 10px solid var(--clcp);
 }
 
 .about-img .about-img-bottom {
@@ -5656,4 +5655,9 @@ dl.hiw dd .team-2 .title,
 /*------------------- Services --------------------*/
 #about {
     background: var(--clcp);
+}
+
+
+#pres_cype p {
+    color: #fff;
 }
