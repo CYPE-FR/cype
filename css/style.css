@@ -5555,6 +5555,8 @@ dl.hiw dd .team-2 .title,
     height: 100%;
     width: 100%;
     z-index: 1;
+    background: #b1291d;
+    opacity: 0.2;
 }
 
 #img-fix {
