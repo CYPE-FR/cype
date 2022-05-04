@@ -1,13 +1,10 @@
 $(document).ready(function() {
-
     "use strict";
-
     /* =================================
     LOADER 
     =================================== */
     $(".loader").delay(400).fadeOut();
     $(".animationload").delay(400).fadeOut("fast");
-
     /* =================================
     NAVBAR 
     =================================== */
@@ -24,7 +21,6 @@ $(document).ready(function() {
             jQuery('.navbar-main').removeClass('stiky');
         }
     });
-
     /* =================================
     BANNER ROTATOR IMAGE 
     =================================== */
