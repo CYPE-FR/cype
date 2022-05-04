@@ -5654,7 +5654,11 @@ dl.hiw dd .team-2 .title,
 
 /*------------------- Services --------------------*/
 #about {
-    background: var(--clcp);
+    height: 112vh !important;
+    background: url('../images/hp1b.jpg') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
 
