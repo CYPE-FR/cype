@@ -913,7 +913,7 @@ dfn {
     vertical-align: bottom;
     width: 30px;
     height: 6px;
-    background: #FFFFFF;
+    background: var(--clcp);
     border-radius: 3px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1503,11 +1503,11 @@ Back To Top Section
     display: block;
     margin-top: 20px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--clcp);
 }
 
 .readmore:hover {
-    color: #FFFFFF;
+    color: var(--clcp);
     text-decoration: underline;
 }
 
@@ -1522,7 +1522,7 @@ Back To Top Section
     width: 100%;
     margin-bottom: 30px;
     position: relative;
-    background-color: #FFFFFF;
+    background-color: #b1291d02;
 }
 
 .media-anim .media img,
@@ -5647,4 +5647,10 @@ dl.hiw dd .team-2 .title,
 .services .serv hr {
     width: 30px;
     border-top: 3px solid rgb(0 169 211);
+}
+
+
+/*------------------- Services --------------------*/
+#about {
+    background: var(--clcp);
 }
