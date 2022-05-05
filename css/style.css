@@ -4754,6 +4754,7 @@ dl.hiw dd .team-2 .title,
 .border-bottom {
     border-bottom: 1px solid #ccc;
 }
+
 .about-img {
     position: relative;
     min-height: 370px;
@@ -5653,14 +5654,14 @@ dl.hiw dd .team-2 .title,
 
 
 /*------------------- Services --------------------*/
+
 #about {
-    height: 112vh !important;
+    height: 200vh !important;
     background: url('../images/hp1b.jpg') !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
-
 
 #pres_cype p {
     color: #fff;
