@@ -830,15 +830,6 @@ dfn {
     padding-bottom: 80px;
 }
 
-.section.overlap {
-    /*position: relative;
-    	z-index: 100;
-    	margin-top: -80px;
-    	> .container{
-    		background-color: $white;
-		    padding-top: 20px;
-    	}*/
-}
 
 .section.overlap-bottom {
     position: relative;
