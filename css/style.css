@@ -1522,7 +1522,6 @@ Back To Top Section
     width: 100%;
     margin-bottom: 30px;
     position: relative;
-    background-color: #b1291d;
 }
 
 .media-anim .media img,
@@ -5656,8 +5655,8 @@ dl.hiw dd .team-2 .title,
 /*------------------- Services --------------------*/
 
 #about {
-    height: 200vh !important;
-    background: url('../images/hp1b.jpg') !important;
+    height: 112vh !important;
+    background: url('../images/hp1.png') !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
