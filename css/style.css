@@ -830,15 +830,6 @@ dfn {
     padding-bottom: 80px;
 }
 
-.section.overlap {
-    /*position: relative;
-    	z-index: 100;
-    	margin-top: -80px;
-    	> .container{
-    		background-color: $white;
-		    padding-top: 20px;
-    	}*/
-}
 
 .section.overlap-bottom {
     position: relative;
@@ -5655,29 +5646,14 @@ dl.hiw dd .team-2 .title,
 /*------------------- Services --------------------*/
 
 #about {
-    height: 165vh !important;
-    background: url('../images/hp1.png');
+    /*height: 165vh !important;*/
+    /*background: url('../images/hp1.png');*/
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
+    background-color: #b1291d !important;
 }
 
 #pres_cype p {
     color: #fff;
-}
-
-
-@media screen and (min-width:1800px){
-    #about {
-        height: 120vh !important;
-    }
-}
-
-
-@media screen and (max-width:450px){
-    #about {
-        height: 205vh !important;
-        background-image: none;
-        background-color: #e18988 !important;
-    }
 }
