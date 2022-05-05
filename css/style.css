@@ -5656,7 +5656,7 @@ dl.hiw dd .team-2 .title,
 
 #about {
     height: 165vh !important;
-    background: url('../images/hp1.png') !important;
+    background: url('../images/hp1.png');
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -5664,4 +5664,20 @@ dl.hiw dd .team-2 .title,
 
 #pres_cype p {
     color: #fff;
+}
+
+
+@media screen and (min-width:1000px){
+    #about {
+        height: 120vh !important;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    #about {
+        height: 205vh !important;
+        background-image: none;
+        background-color: #e18988 !important;
+    }
 }
