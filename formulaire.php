@@ -1,6 +1,11 @@
+<?php
+if($_POST["message"]) {
+mail("thonyabatan@gmail.com", "Here is the subject line",
+$_POST["insert your message here"]. "From: $email");
+}
+?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form To Email Using JavasScript</title>
@@ -9,7 +14,7 @@
 
 <body>
     <div class="container">
-        <form onsubmit="sendEmail(); reset(); return false;">
+        <form action="mail.php" method="post">
             <h3>get in touch</h3>
             <input type="text" id="name" placeholder="your name" required>
             <input type="email" id="email" placeholder="your email" required>
