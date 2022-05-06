@@ -5570,7 +5570,7 @@ dl.hiw dd .team-2 .title,
 .services {
     padding: 40px;
     position: relative;
-    background-color: rgb(249, 249, 249);
+    background-color: var(--cw);
 }
 
 .services .square {
@@ -5656,4 +5656,35 @@ dl.hiw dd .team-2 .title,
 
 #pres_cype p {
     color: #fff;
+}
+
+
+#rd {
+    min-height: 10vh;
+    color: white;
+    padding: 30px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/const_banner.jpeg") fixed center center;
+    background-size: cover;
+}
+
+#rd h2 {
+    color: white;
+}
+
+#rd .section-heading:after {
+    content: '';
+    display: block;
+    vertical-align: bottom;
+    width: 30px;
+    height: 6px;
+    background: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-white {
+    color: white;
 }
