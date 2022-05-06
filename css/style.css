@@ -5688,3 +5688,23 @@ dl.hiw dd .team-2 .title,
 .text-white {
     color: white;
 }
+
+#rd .cta-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+#rd .cta-btn:hover {
+    background-color: var(--clcp);
+    border: 2px solid var(--clcp);
+}
