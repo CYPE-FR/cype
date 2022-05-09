@@ -1695,7 +1695,7 @@ ul.circle li:before {
     width: 30px;
     display: block;
     margin: 7% 0;
-    background: #e6af2a
+    background: var(--clcp)
 }
 
 .box-icon-5 .text {
@@ -2155,7 +2155,7 @@ ul.circle li:before {
     width: 30px;
     display: block;
     margin: 7% 0;
-    background: #fde428;
+    background: var(--clcp);
     -webkit-transform-origin: left top;
     -moz-transform-origin: left top;
     -ms-transform-origin: left top;

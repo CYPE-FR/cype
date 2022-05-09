@@ -2000,7 +2000,7 @@ Back To Top Section
     width: 30px;
     display: block;
     margin: 7% 0;
-    background: #0c1f38;
+    background: var(--clcp);
 }
 
 .box-icon-5 .text {
@@ -2500,7 +2500,7 @@ Back To Top Section
     width: 30px;
     display: block;
     margin: 7% 0;
-    background: #0c1f38;
+    background: var(--clcp);
     -webkit-transform-origin: left top;
     -moz-transform-origin: left top;
     -ms-transform-origin: left top;
@@ -5707,4 +5707,10 @@ dl.hiw dd .team-2 .title,
 #rd .cta-btn:hover {
     background-color: var(--clcp);
     border: 2px solid var(--clcp);
+}
+#projet {
+    padding: 40px;
+}
+#projet img{
+    min-height: 270px;
 }
