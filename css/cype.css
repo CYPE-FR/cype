@@ -2,6 +2,7 @@
     --clcp: #b1291d;
     --cg: rgb(249, 249, 249);
     --cw: white;
+    --trans : color 0.4s ease 0s;
 }
 
 
@@ -441,4 +442,7 @@ h3 {
     .video-background-holder {
         height: 80vh;
     }
+}
+.anime {
+    transition: var(--trans,color .4s ease 0s);
 }
