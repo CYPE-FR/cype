@@ -446,3 +446,7 @@ h3 {
 .anime {
     transition: var(--trans,color .4s ease 0s);
 }
+
+.body_desc {
+    display: none;
+}
