@@ -1,24 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form To Email Using JavasScript</title>
     <link rel="stylesheet" href="formulaire.css">
 </head>
 
 <body>
-    <div class="container">
-        <form action="mail.php" method="post">
-            <h3>get in touch</h3>
-            <input type="text" id="name" placeholder="your name" >
-            <input type="email" id="email" placeholder="your email" >
-            <input type="text" id="phone" placeholder="your phone" >
-            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
-            <button type="submit">Send</button>
+
+
+    <div id="overlay">
+        <form onsubmit="event.preventDefault(); validateForm()" action="mail.php" method="post">
+            <h1>Contact Us</h1>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" >
+            <small class="error"></small>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" >
+            <small class="error"></small>
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="Your phone" >
+            <small class="error"></small>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="How can we help you?"  rows="6"></textarea>
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="success"></p>
+            </div>
 
         </form>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+
+    <script src="formulaire.js"></script>
 </body>
 
 </html>
