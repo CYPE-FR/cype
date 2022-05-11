@@ -2423,7 +2423,7 @@ Back To Top Section
 
 .feature-box-8 {
     position: relative;
-    padding-bottom: 40px;
+    /*padding-bottom: 40px;*/
 }
 
 .feature-box-8 .media {
@@ -5645,7 +5645,7 @@ dl.hiw dd .team-2 .title,
 
 /*------------------- Services --------------------*/
 
-#about {
+#presentation {
     /*height: 165vh !important;*/
     /*background: url('../images/hp1.png');*/
     background-position: center !important;
@@ -5660,10 +5660,10 @@ dl.hiw dd .team-2 .title,
 
 
 #rd {
-    min-height: 10vh;
+    min-height: 20vh;
     color: white;
     padding: 30px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/const_banner.jpeg") fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/fascade.png") fixed center center;
     background-size: cover;
 }
 
