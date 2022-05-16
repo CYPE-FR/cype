@@ -456,3 +456,10 @@ h3 {
 .body_desc {
     display: none;
 }
+
+#contact a{
+    color: #000;
+}
+#contact .text_link:hover{
+    color: var(--clcp);
+}

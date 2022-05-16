@@ -1086,7 +1086,7 @@ ul.circle li:before {
     -ms-border-radius: 3px;
     border-radius: 3px;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: var(--clcp);
     left: 0;
     bottom: 0
 }
