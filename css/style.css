@@ -5503,6 +5503,10 @@ dl.hiw dd .team-2 .title,
     -o-border-radius: 50%;
 }
 
+.fa-rounded:hover {
+    background: #111479;
+}
+
 .icon-box-link {
     color: #b1291d;
 }

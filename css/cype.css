@@ -428,7 +428,11 @@ h3 {
 }
 
 .services .serv h5 {
-    color: #b1291d;
+    color: black;
+}
+
+.services .serv h5:hover {
+    color: var(--clcp);
 }
 
 .services .serv p {
