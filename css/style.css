@@ -5493,7 +5493,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .fa-rounded {
-    background: #b1291d;
+    background: #0c1f38;
     color: white;
     padding: 8% 9%;
     border-radius: 50%;
@@ -5503,16 +5503,18 @@ dl.hiw dd .team-2 .title,
     -o-border-radius: 50%;
 }
 
-.fa-rounded:hover {
-    background: #111479;
+.zone_serv:hover .fa-rounded {
+    background: #b1291d;
 }
-
+.zone_serv:hover .serv h5 {
+    color: #b1291d;
+}
 .icon-box-link {
     color: #b1291d;
 }
 
 .icon-box-link:hover {
-    color: #111479;
+    color: #0c1f38;
 }
 
 .mtt {
