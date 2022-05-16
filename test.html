@@ -28,11 +28,14 @@
     <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/zanime.css" />
-    <link rel="stylesheet" type="text/css" href="css/cype.css" />
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
     <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <style>
 
 
@@ -193,6 +196,63 @@ figure.effect-sadie:hover p {
 		width: 100%;
 	}
 }
+
+
+/*------------------- Services --------------------*/
+
+.services {
+    padding: 40px;
+    position: relative;
+    background-color: var(--cw);
+}
+
+.services .square {
+    height: 100px;
+    width: 100px;
+    margin: 30px auto 40px;
+    position: relative;
+    border-radius: 15px;
+    transform: rotate(45deg);
+    padding: 10px;
+    color: #0c1f38;
+}
+
+.square i {
+    transform: rotate(315deg);
+    display: block;
+    font-size: 40px;
+    padding-top: 17px;
+    padding-right: 14px;
+}
+
+.services .serv .num {
+    width: 60px;
+    height: 60px;
+    background-color: #7499f1;
+    box-shadow: 0px 0px 15px 0px #00a9d3;
+    margin: -38px auto 15px auto;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 7px;
+    border: 1px dashed;
+}
+
+.services .serv h5 {
+    color: #b1291d;
+}
+
+.services .serv p {
+    color: #777;
+}
+
+.services .serv hr {
+    width: 30px;
+    border-top: 3px solid rgb(0 169 211);
+}
+
+
+/*------------------- Services --------------------*/
 </style>
 </head>
 
@@ -207,11 +267,7 @@ figure.effect-sadie:hover p {
     <!-- Back to top up -->
     <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
     <!-- /Back to top up -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <!------ Include the above in your HEAD tag ---------->
-    <!DOCTYPE html>
+    
     <div class="container">
       <section id="projet">
         <div class="content">
@@ -236,6 +292,46 @@ figure.effect-sadie:hover p {
         </div>
       </section>
     </div><!-- /container -->
+
+    <!-- Services -->
+    <section id="services">
+      <div class="services pd">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-sm-12 col-md-12">
+                      <h2 class="section-heading center">
+                          SERVICES
+                      </h2>
+                  </div>
+                  <div class="col-md-4" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                      <a href="https://www.store.cype.com/fr/">
+                          <div class="square"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                          <div class="serv">
+                              <h5>Boutique en ligne</h5>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-4" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                      <a href="#">
+                          <div class="square"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+                          <div class="serv del">
+                              <h5>Formation</h5>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="col-md-4" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                      <a href="https://cypecommunity.zendesk.com/hc/fr">
+                          <div class="square"><i class="fa fa-headphones"></i></div>
+                          <div class="serv">
+                              <h5>Support Technique</h5>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- /Services -->
     <!-- JS VENDOR -->
     <script type="text/javascript " src="js/vendor/jquery.min.js "></script>
     <script type="text/javascript " src="js/vendor/bootstrap.min.js "></script>
