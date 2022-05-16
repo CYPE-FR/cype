@@ -16,7 +16,9 @@ html {
 h3 {
     color: var(--clcp);
 }
-
+.bg-grey {
+    background-color: #f8f9fa;
+}
 
 /* Barner */
 
@@ -466,4 +468,8 @@ h3 {
 }
 #contact .text_link:hover{
     color: var(--clcp);
+}
+
+.svg svg {
+    color: white;
 }
