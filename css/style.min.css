@@ -1153,47 +1153,6 @@ ul.circle li:before {
     background: #FFFFFF
 }
 
-.cd-top {
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    bottom: 50px;
-    right: 10px;
-    z-index: 999;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .05);
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
-    background: #FFFFFF url(../images/cd-top-arrow.svg) no-repeat center 50%;
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-    -moz-transition: opacity .3s 0s, visibility 0s .3s;
-    transition: opacity .3s 0s, visibility 0s .3s
-}
-
-.cd-top.cd-fade-out,
-.cd-top.cd-is-visible,
-.no-touch .cd-top:hover {
-    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-    -moz-transition: opacity .3s 0s, visibility 0s 0s;
-    transition: opacity .3s 0s, visibility 0s 0s
-}
-
-.cd-top.cd-is-visible {
-    visibility: visible;
-    opacity: 1
-}
-
-.cd-top.cd-fade-out {
-    opacity: .5
-}
-
-.cd-top:hover {
-    opacity: 1
-}
-
 .hover-img {
     background: #FFFFFF;
     overflow: hidden;
