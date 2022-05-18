@@ -1421,7 +1421,7 @@ Back To Top Section
     width: 40px;
     position: fixed;
     bottom: 50px;
-    right: 10px;
+    left: 10px;
     z-index: 999;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
