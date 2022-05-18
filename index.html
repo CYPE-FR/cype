@@ -464,7 +464,7 @@
                 </div>
                 <div class="col-sm-9 col-md-9">
                     <div class="content">
-                        <form action="contact.php" method="post" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
+                        <form onsubmit="event.preventDefault(); validateForm()" action="contact.php" method="post" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="p_name" placeholder="Nom & prénoms" required="">
                                 <div class="help-block with-errors"></div>
@@ -498,6 +498,8 @@
 
         </div>
     </div>
+    <script src="contact.js"></script>
+
     </section>
     <!-- /Contacts Us -->
 
