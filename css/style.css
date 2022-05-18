@@ -4866,7 +4866,7 @@ dl.hiw dd .team-2 .title,
 #caro-project .owl-controls .owl-nav [class*=owl-],
 #caro-project-2 .owl-controls .owl-nav [class*=owl-],
 #owl-testimony .owl-controls .owl-nav [class*=owl-] {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 14px;
     margin: 5px;
     background: transparent;
@@ -4877,7 +4877,7 @@ dl.hiw dd .team-2 .title,
     border-radius: 0;
     width: 40px;
     height: 40px;
-    border: 3px solid #FFFFFF;
+    border: 3px solid #000000;
     padding-top: 7px;
 }
 
@@ -4885,8 +4885,8 @@ dl.hiw dd .team-2 .title,
 #caro-project-2 .owl-controls .owl-nav [class*=owl-]:hover,
 #owl-testimony .owl-controls .owl-nav [class*=owl-]:hover {
     background: transparent;
-    color: #000000;
-    border-color: #000000;
+    color: var(--clcp);
+    border-color: var(--clcp);
     text-decoration: none;
 }
 
@@ -4905,18 +4905,21 @@ dl.hiw dd .team-2 .title,
 #owl-testimony .owl-nav .owl-next {
     position: absolute;
     top: -180px;
+    top: -115px;
 }
 
 #caro-project .owl-nav .owl-prev,
 #caro-project-2 .owl-nav .owl-prev,
 #owl-testimony .owl-nav .owl-prev {
     left: -70px;
+    top: -115px;
 }
 
 #caro-project .owl-nav .owl-next,
 #caro-project-2 .owl-nav .owl-next,
 #owl-testimony .owl-nav .owl-next {
     right: -70px;
+    top: -115px;
 }
 
 .bg-dark .owl-controls .owl-nav [class*=owl-]:hover {
@@ -5493,7 +5496,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .fa-rounded {
-    background: #b1291d;
+    background: #0c1f38;
     color: white;
     padding: 8% 9%;
     border-radius: 50%;
@@ -5503,16 +5506,18 @@ dl.hiw dd .team-2 .title,
     -o-border-radius: 50%;
 }
 
-.fa-rounded:hover {
-    background: #111479;
+.zone_serv:hover .fa-rounded {
+    background: #b1291d;
 }
-
+.zone_serv:hover .serv h5 {
+    color: #b1291d;
+}
 .icon-box-link {
     color: #b1291d;
 }
 
 .icon-box-link:hover {
-    color: #111479;
+    color: #0c1f38;
 }
 
 .mtt {
