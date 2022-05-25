@@ -5492,6 +5492,11 @@ dl.hiw dd .team-2 .title,
     background-color: var(--cw);
 }
 
+.service i {
+    height: 36px; 
+    width : 36px;
+}
+
 .services .square {
     height: 100px;
     width: 100px;
