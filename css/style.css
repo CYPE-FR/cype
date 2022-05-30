@@ -838,7 +838,6 @@ dfn {
 }
 
 .section.overlap-bottom>.container {
-    background-color: #FFFFFF;
     margin-top: 10vh;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -4627,8 +4626,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .overlap {
-    background-color: #ffffff;
-    margin-top: -140px;
+    margin-top: -145px;
     position: relative;
     z-index: 2;
 }
@@ -4642,9 +4640,7 @@ dl.hiw dd .team-2 .title,
 .feature-gutter>[class*=" col-"],
 .feature-gutter[class*='col-'],
 .feature-gutter[class*=" col-"] {
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-top: 12px;
 }
 
 .border-right {

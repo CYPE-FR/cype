@@ -459,8 +459,26 @@ h3 {
     transition: var(--trans,color .4s ease 0s);
 }
 
-.body_desc {
+.box .body_desc {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.box .body_desc p {
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    float: left;
+    padding: 2px 20px;
     display: none;
+}
+
+.box:hover > .body_desc p {
+    display: block;
 }
 
 #contact a{
@@ -472,4 +490,8 @@ h3 {
 
 .svg svg {
     color: white;
+}
+
+.carde {
+    border: 5px solid rgba(0, 0, 0, 0.206);
 }

@@ -36,302 +36,45 @@
 
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<style>
+        <style>
+            
+            .dropdown--menu {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 158px;
+                z-index:1px;
+            }
+
+            .right-menu:hover .menu-button {
+                display: block;
+            }
 
 
-.grid {
-	position: relative;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
-	list-style: none;
-	text-align: center;
-}
-
-/* Common style */
-.grid figure {
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
-	width: 48%;
-	background: #3085a3;
-	text-align: center;
-	cursor: pointer;
-}
-
-.grid figure img {
-	position: relative;
-	display: block;
-	min-height: 100%;
-	max-width: 100%;
-	opacity: 0.8;
-}
-
-.grid figure figcaption {
-	padding: 2em;
-	color: #fff;
-	text-transform: uppercase;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
-
-.grid figure figcaption::before,
-.grid figure figcaption::after {
-	pointer-events: none;
-}
-
-.grid figure figcaption,
-.grid figure figcaption > a {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
-}
-
-.grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
-}
-
-.grid figure h2 span {
-	font-weight: 800;
-}
-
-.grid figure h2,
-.grid figure p {
-	margin: 0;
-}
-
-.grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
-}
-
-/*---------------*/
-/***** Sadie *****/
-/*---------------*/
-
-figure.effect-sadie figcaption::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
-	content: '';
-	opacity: 0;
-	-webkit-transform: translate3d(0,50%,0);
-	transform: translate3d(0,50%,0);
-}
-
-figure.effect-sadie h2 {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 100%;
-	color: #484c61;
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
-	transition: transform 0.35s, color 0.35s;
-	-webkit-transform: translate3d(0,-50%,0);
-	transform: translate3d(0,-50%,0);
-}
-
-figure.effect-sadie figcaption::before,
-figure.effect-sadie p {
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-sadie p {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 2em;
-	width: 100%;
-	opacity: 0;
-	-webkit-transform: translate3d(0,10px,0);
-	transform: translate3d(0,10px,0);
-}
-
-figure.effect-sadie:hover h2 {
-	color: #fff;
-	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
-	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
-}
-
-figure.effect-sadie:hover figcaption::before ,
-figure.effect-sadie:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-}
-
-
-@media screen and (max-width: 50em) {
-	.content {
-		padding: 0 10px;
-		text-align: center;
-	}
-	.grid figure {
-		display: inline-block;
-		float: none;
-		margin: 10px auto;
-		width: 100%;
-	}
-}
-
-
-/*------------------- Services --------------------*/
-
-.services {
-    padding: 40px;
-    position: relative;
-    background-color: var(--cw);
-}
-
-.services .square {
-    height: 100px;
-    width: 100px;
-    margin: 30px auto 40px;
-    position: relative;
-    border-radius: 15px;
-    transform: rotate(45deg);
-    padding: 10px;
-    color: #0c1f38;
-}
-
-.square i {
-    transform: rotate(315deg);
-    display: block;
-    font-size: 40px;
-    padding-top: 17px;
-    padding-right: 14px;
-}
-
-.services .serv .num {
-    width: 60px;
-    height: 60px;
-    background-color: #7499f1;
-    box-shadow: 0px 0px 15px 0px #00a9d3;
-    margin: -38px auto 15px auto;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 30px;
-    padding-top: 7px;
-    border: 1px dashed;
-}
-
-.services .serv h5 {
-    color: #b1291d;
-}
-
-.services .serv p {
-    color: #777;
-}
-
-.services .serv hr {
-    width: 30px;
-    border-top: 3px solid rgb(0 169 211);
-}
-
-
-/*------------------- Services --------------------*/
-</style>
+        </style>
 </head>
 
 <body>
 
-    <!-- Load page -->
-    <div class="animationload">
-        <div class="loader"></div>
-    </div>
-    <!-- /Load page -->
-
-    <!-- Back to top up -->
-    <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
-    <!-- /Back to top up -->
-    
-    <div class="container">
-      <section id="projet">
-        <div class="content">
-          <div class="grid">
-            <figure class="effect-sadie">
-              <img src="images/bimepda.png" alt="">
-              <figcaption>
-                <h2>BIMEPDA</h2>
-                <p>Le projet BIMEPD porte, de par sa nature, sur la production et le développement de matériels multimédias basés sur le BIM et tenant compte des défis liés à l’Analyse du Cycle de Vie (ACV) et aux Déclarations Environnementales des Produits (DEP) des matériaux de construction. Ceci, dans le but de les utiliser comme matériel de formation aussi bien pour l’éducation des adultes que pour les professionnels du secteur de l’architecture, afin d’atteindre un certain nombre d’objectifs principaux.</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-            <figure class="effect-sadie">
-              <img src="images/bimepda.png" alt="">
-              <figcaption>
-                <h2>BIMEPDA</h2>
-                <p>Le projet BIMEPD porte, de par sa nature, sur la production et le développement de matériels multimédias basés sur le BIM et tenant compte des défis liés à l’Analyse du Cycle de Vie (ACV) et aux Déclarations Environnementales des Produits (DEP) des matériaux de construction. Ceci, dans le but de les utiliser comme matériel de formation aussi bien pour l’éducation des adultes que pour les professionnels du secteur de l’architecture, afin d’atteindre un certain nombre d’objectifs principaux.</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-          </div>
+        <!-- Load page -->
+        <div class="animationload">
+            <div class="loader"></div>
         </div>
-      </section>
-    </div><!-- /container -->
+        <!-- /Load page -->
 
-    <!-- Services -->
-    <section id="services">
-      <div class="services pd">
-          <div class="container">
-              <div class="row text-center">
-                  <div class="col-sm-12 col-md-12">
-                      <h2 class="section-heading center">
-                          SERVICES
-                      </h2>
-                  </div>
-                  <div class="col-md-4" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                      <a href="https://www.store.cype.com/fr/">
-                          <div class="square"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
-                          <div class="serv">
-                              <h5>Boutique en ligne</h5>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-4" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                      <a href="#">
-                          <div class="square"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
-                          <div class="serv del">
-                              <h5>Formation</h5>
-                          </div>
-                      </a>
-                  </div>
-                  <div class="col-md-4" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                      <a href="https://cypecommunity.zendesk.com/hc/fr">
-                          <div class="square"><i class="fa fa-headphones"></i></div>
-                          <div class="serv">
-                              <h5>Support Technique</h5>
-                          </div>
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-  <!-- /Services -->
+        <!-- Back to top up -->
+        <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
+        <!-- /Back to top up -->
+
+    <section style="min-height: 10vh; background-color: aqua;">
+        <div class="right-menu">
+            <button class="menu-button">Menu</button>
+            <div class="dropdown--menu">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iure laudantium labore ex, necessitatibus ullam odio. Sapiente minus natus doloribus velit nesciunt nemo cumque hic culpa ducimus, quasi iste blanditiis!</p>
+            </div>
+        </div>
+    </section>
+
     <!-- JS VENDOR -->
     <script type="text/javascript " src="js/vendor/jquery.min.js "></script>
     <script type="text/javascript " src="js/vendor/bootstrap.min.js "></script>
