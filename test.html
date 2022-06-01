@@ -28,21 +28,95 @@
     <script type="text/javascript" src="js/vendor/modernizr.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <style>
+    :root {
+    --card--front: cornflowerblue;
+
+    }
+
+    img {
+    max-width: 100%;
+    }
+
+    .game {
+    position: relative;
+    padding: 0.5em;
+    padding-bottom: 70px;
+    }
+
+    .front {
+    transition: 250ms;
+    }
+
+    .front p {
+    padding-bottom: 0.5em;
+    color: black;
+    }
+
+    .more__info {
+    position: absolute;
+    top: 72%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+    padding: 0.5em;
+    transition: transform  250ms ease, opacity 100ms ease;  
+    }
+
+    .game:hover .more__info {
+    opacity: 1;
+    -webkit-transition: opacity 150ms linear, -webkit-transform 250ms ease;
+    transition: opacity 150ms linear, -webkit-transform 250ms ease;
+    transition: transform 250ms ease, opacity 150ms linear;
+    transition: transform 250ms ease, opacity 150ms linear, -webkit-transform 250ms ease;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);  
+    }
 
     </style>
 </head>
 
 <body>
 
-    <!-- Load page -->
-    <div class="animationload">
-        <div class="loader"></div>
-    </div>
-    <!-- /Load page -->
+    
 
-    <!-- Back to top up -->
-    <a href="#0" class="cd-top cd-is-visible cd-fade-out">Top</a>
-    <!-- /Back to top up -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="game">
+                    <div class="front">
+                        <img src="images/cypecom.jpg" alt="rud" class="img-responsive pt-5">
+                    </div>
+                    <div class="more__info">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="game">
+                    <div class="front">
+                        <img  src="images/bimserv.jpg" alt="rud" class="img-responsive pt-5">
+                    </div>
+                    <div class="more__info">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="game">
+                    <div class="front">
+                        <img src="images/openBim.jpg" alt="rud" class="img-responsive pt-5">
+                    </div>
+                    <div class="more__info">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Header -->
     <div class="header header-1">
@@ -148,10 +222,12 @@
                             <!-- BOX 1 -->
                             <a href="http://www.cype.fr/">
                                 <div class="card carde rounded-0 border border-dark">
-                                    <div class="feature-box-8">
-                                        <div class="media">
+                                    <div class="game">
+                                        <div class="front">
                                             <img src="images/cypecom.jpg" alt="rud" class="img-responsive pt-5">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
+                                        </div>
+                                        <div class="more__info">
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +265,6 @@
         </div>
     </div>
     <!-- /Description  -->
-
-
 
 
     <!-- JS VENDOR -->
