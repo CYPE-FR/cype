@@ -459,27 +459,18 @@ h3 {
     transition: var(--trans,color .4s ease 0s);
 }
 
-.box .body_desc {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding: 0;
+.box {
+    padding-bottom: 100px;
 }
 
-.box .body_desc p {
-    background-color: white;
+.box p {
     position: relative;
     cursor: pointer;
     font-size: 14px;
     float: left;
     padding: 2px 20px;
-    display: none;
 }
 
-.box:hover > .body_desc p {
-    display: block;
-}
 
 #contact a{
     color: #000;
@@ -496,4 +487,46 @@ h3 {
     border: 2px solid rgba(0, 0, 0, 0.206);
     -webkit-box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78); 
     box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78);
+}
+
+
+.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: #b1291d url("../images/cd-top-arrow.svg") no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
+.no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.cd-top.cd-is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    opacity: .5;
+}
+
+.cd-top:hover {
+    opacity: 1;
 }
