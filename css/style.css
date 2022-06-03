@@ -3814,7 +3814,7 @@ ul.circle li:before {
 }
 
 .navbar-main .nav>li>a {
-    color: #222222;
+    color: #ffffff;
 }
 
 .navbar-main .nav>li.active>a,
@@ -3894,6 +3894,10 @@ ul.circle li:before {
 
 .header-1 .stiky .navbar-nav {
     background-color: #ffffff;
+}
+
+.header-1 .stiky .navbar-nav a {
+    color: #000;
 }
 
 .header-1 .stiky .navbar-nav:after {

@@ -3434,7 +3434,7 @@ ul.circle li:before {
 }
 
 .navbar-main .nav>li>a {
-    color: #222
+    color: #fff
 }
 
 .navbar-main .nav>li.active>a,
@@ -3520,7 +3520,7 @@ ul.circle li:before {
 .header-1 .stiky .nav .open>a:focus,
 .header-1 .stiky .nav .open>a:hover,
 .header-1 .stiky .nav>li.active>a {
-    color: #FFFFFF
+    color: #000
 }
 
 .social-icon li {

@@ -547,7 +547,7 @@ h3 {
 
     .game:hover{
         box-shadow: none;
-        background-color: #e8e8e8;
+        background-color: #f8f9fa;
         border: none;
     }
 
@@ -578,7 +578,7 @@ h3 {
     .game:hover .more__info {
     z-index: 1000;
     margin-top: 50px;
-    background: #b3b3b3;
+    background: #c9c9c9;
     color: white;
     opacity: 1;
     -webkit-transition: opacity 150ms linear, -webkit-transform 250ms ease;
