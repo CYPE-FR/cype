@@ -530,3 +530,63 @@ h3 {
 .cd-top:hover {
     opacity: 1;
 }
+
+:root {
+    --card--front: cornflowerblue;
+
+    }
+    .game {
+    position: relative;
+    padding: 0.5em;
+    padding-bottom: 27px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.206);
+    -webkit-box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78); 
+    box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78);
+    }
+
+    .game:hover{
+        box-shadow: none;
+        background-color: #e0e0e0;
+
+    }
+
+    .game:hover 
+
+    .front {
+    transition: 250ms;
+    }
+
+    .front p {
+    padding-bottom: 0.5em;
+    color: black;
+    }
+
+    .more__info {
+    position: absolute;
+    top: 72%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+    padding: 0.5em;
+    transition: transform  250ms ease, opacity 100ms ease;  
+    }
+
+    .game:hover .more__info {
+    margin-top: 50px;
+    background: #858484;
+    color: white;
+    opacity: 1;
+    z-index: 1000;
+    -webkit-transition: opacity 150ms linear, -webkit-transform 250ms ease;
+    transition: opacity 150ms linear, -webkit-transform 250ms ease;
+    transition: transform 250ms ease, opacity 150ms linear;
+    transition: transform 250ms ease, opacity 150ms linear, -webkit-transform 250ms ease;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);  
+
+    }
