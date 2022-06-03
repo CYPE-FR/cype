@@ -32,16 +32,23 @@
     --card--front: cornflowerblue;
 
     }
-
-    img {
-    max-width: 100%;
-    }
-
     .game {
     position: relative;
     padding: 0.5em;
-    padding-bottom: 70px;
+    padding-bottom: 27px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.206);
+    -webkit-box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78); 
+    box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78);
     }
+
+    .game:hover{
+        box-shadow: none;
+        background-color: #969696;
+
+    }
+
+    .game:hover 
 
     .front {
     transition: 250ms;
@@ -67,6 +74,9 @@
     }
 
     .game:hover .more__info {
+    margin-top: 50px;
+    background: #626262;
+    color: white;
     opacity: 1;
     -webkit-transition: opacity 150ms linear, -webkit-transform 250ms ease;
     transition: opacity 150ms linear, -webkit-transform 250ms ease;
@@ -74,49 +84,13 @@
     transition: transform 250ms ease, opacity 150ms linear, -webkit-transform 250ms ease;
     -webkit-transform: translateY(0);
             transform: translateY(0);  
+
     }
 
     </style>
 </head>
 
 <body>
-
-    
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="game">
-                    <div class="front">
-                        <img src="images/cypecom.jpg" alt="rud" class="img-responsive pt-5">
-                    </div>
-                    <div class="more__info">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="game">
-                    <div class="front">
-                        <img  src="images/bimserv.jpg" alt="rud" class="img-responsive pt-5">
-                    </div>
-                    <div class="more__info">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="game">
-                    <div class="front">
-                        <img src="images/openBim.jpg" alt="rud" class="img-responsive pt-5">
-                    </div>
-                    <div class="more__info">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Header -->
     <div class="header header-1">
@@ -217,47 +191,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12">
-                    <div class="row overlap feature-gutter">
-                        <div class="col-sm-4 col-md-4 text-center box">
-                            <!-- BOX 1 -->
-                            <a href="http://www.cype.fr/">
-                                <div class="card carde rounded-0 border border-dark">
-                                    <div class="game">
-                                        <div class="front">
-                                            <img src="images/cypecom.jpg" alt="rud" class="img-responsive pt-5">
-                                        </div>
-                                        <div class="more__info">
-                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
-                                        </div>
+                    <div class="overlap feature-gutter">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="game">
+                                    <div class="front">
+                                        <img src="images/cypecom.jpg" alt="rud" class="img-responsive pt-5">
+                                    </div>
+                                    <div class="more__info">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-md-4 text-center box">
-                            <!-- BOX 2 -->
-                            <a href="https://bimserver.center/fr/">
-                                <div class="card carde rounded-0 border border-dark">
-                                    <div class="feature-box-8">
-                                        <div class="media">
-                                            <img  src="images/bimserv.jpg" alt="rud" class="img-responsive pt-5">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="game">
+                                    <div class="front">
+                                        <img  src="images/bimserv.jpg" alt="rud" class="img-responsive pt-5">
+                                    </div>
+                                    <div class="more__info">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
                                     </div>
                                 </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-4 col-md-4 text-center box">
-                            <!-- BOX 3 -->
-                            <a href="https://openbimsystems.com/fr">
-                                <div class="card carde rounded-0 border border-dark">
-                                    <div class="feature-box-8">
-                                        <div class="media">
-                                            <img src="images/openBim.jpg" alt="rud" class="img-responsive pt-5">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed</p>
-                                        </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="game">
+                                    <div class="front">
+                                        <img src="images/openBim.jpg" alt="rud" class="img-responsive pt-5">
+                                    </div>
+                                    <div class="more__info">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus eum illo voluptates, aut unde impedit nihil eos sint consectetur molestias, minus enim ipsa vitae ullam voluptatum eius?</p>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
