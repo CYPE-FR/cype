@@ -495,7 +495,7 @@ h3 {
     height: 40px;
     width: 40px;
     position: fixed;
-    bottom: 50px;
+    bottom: 70px;
     right: 10px;
     z-index: 999;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -547,24 +547,23 @@ h3 {
 
     .game:hover{
         box-shadow: none;
-        background-color: #f1f1f1;
-
+        background-color: #e8e8e8;
+        border: none;
     }
-
-    .game:hover 
 
     .front {
     transition: 250ms;
     }
 
     .front p {
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
     color: black;
     }
 
     .more__info {
     position: absolute;
-    top: 72%;
+    top: 70%;
+    max-height: 100px;
     left: 0;
     right: 0;
     opacity: 0;
@@ -579,7 +578,7 @@ h3 {
     .game:hover .more__info {
     z-index: 1000;
     margin-top: 50px;
-    background: #858484;
+    background: #b3b3b3;
     color: white;
     opacity: 1;
     -webkit-transition: opacity 150ms linear, -webkit-transform 250ms ease;
