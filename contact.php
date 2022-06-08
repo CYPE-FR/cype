@@ -1,4 +1,8 @@
-<?php header('Location: index.html');
+<?php 
+
+echo "Hey";
+/*
+header('Location: index.html');
     //si le formulaire a été soumis
     if(isset($_POST["p_message"])){ 
         $message = "Ce message vous a été envoyé via la page contact du site vitrine 
@@ -13,4 +17,5 @@
             echo "<p>L'email a bien été envoyé.</p>";
         }
     }
+    */
 ?>

@@ -466,7 +466,7 @@
                     </div>
                     <div class="col-sm-9 col-md-9">
                         <div class="content">
-                            <form action="contact.php" method="POST" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
+                            <form action="" method="POST" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="p_name" placeholder="Nom & prénoms" required="">
                                     <div class="help-block with-errors"></div>
