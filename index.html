@@ -466,30 +466,25 @@
                     </div>
                     <div class="col-sm-9 col-md-9">
                         <div class="content">
-                            <form action="" method="POST" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
+                            <form action="contact.php" method="POST" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="p_name" placeholder="Nom & prénoms" required="">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" class="form-control" name="p_name" placeholder="Nom & prénoms" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="p_email" placeholder="Email" required="">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="email" class="form-control" name="p_email" placeholder="Email" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="p_subject" placeholder="Sujet" required="">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" class="form-control" name="p_subject" placeholder="Sujet" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="p_phone" placeholder="Téléphone" required="">
-                                    <div class="help-block with-errors"></div>
+                                    <input type="text" class="form-control" name="p_phone" placeholder="Téléphone" required>
                                 </div>
                                 <div class="form-group">
                                     <textarea name="p_message" class="form-control" rows="6" placeholder="Ecrivez votre message"></textarea>
-                                    <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group">
-                                    <div id="success"></div>
-                                    <button type="submit" class="btn btn-primary">ENVOVEZ</button>
+                                    <input type="submit" class="" value="ENVOVEZ">
+                                    <!--button type="submit" class="btn btn-primary">ENVOVEZ</!--button-->
                                 </div>
                             </form>
                             <div class="margin-bottom-50"></div>
