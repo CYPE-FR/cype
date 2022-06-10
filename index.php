@@ -466,7 +466,7 @@
                     </div>
                     <div class="col-sm-9 col-md-9">
                         <div class="content">
-                            <form action="contact.php" method="POST" class="form-contact" id="contactForm" data-toggle="validator" novalidate="true">
+                            <form method="POST">
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="p_name" placeholder="Nom & prénoms" required>
                                 </div>
@@ -483,9 +483,24 @@
                                     <textarea name="p_message" class="form-control" rows="6" placeholder="Ecrivez votre message"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">ENVOVEZ</button>
+                                    <button type="submit" class="btn btn-primary">ENVOYEZ</button>
                                 </div>
                             </form>
+                            <?php 
+                            //si le formulaire a été soumis
+                            if(isset($_POST["p_message"])){ 
+                                $message = "Ce message vous a été envoyé via la page contact du site vitrine 
+                                Nom : " . $_POST["p_name"] . "
+                                Email : " . $_POST["p_email"] . "
+                                Sujet : " . $_POST["p_subject"] . "
+                                Téléphone : " . $_POST["p_phone"] . "
+                                Message : " . $_POST["p_message"];
+                                $retour = mail("thonyabatan@gmail.com",$_POST["p_subject"],$message,"From:".$_POST["p_email"]."\r\n"."Reply-to:".$_POST["p_email"]);
+                                if($retour){
+                                    echo "<p>Votre message a été bien envoyé à notre équipe.</p>";
+                                }
+                            }
+                            ?>
                             <div class="margin-bottom-50"></div>
                         </div>
                     </div>

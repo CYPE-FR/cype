@@ -1,7 +1,4 @@
 <?php 
-
-echo "Hey";
-/*
 header('Location: index.html');
     //si le formulaire a été soumis
     if(isset($_POST["p_message"])){ 
@@ -17,5 +14,4 @@ header('Location: index.html');
             echo "<p>L'email a bien été envoyé.</p>";
         }
     }
-    */
 ?>
