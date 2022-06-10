@@ -2,12 +2,13 @@
     --clcp: #b1291d;
     --cg: rgb(249, 249, 249);
     --cw: white;
-    --trans : color 0.4s ease 0s;
+    --trans: color 0.4s ease 0s;
 }
 
 html {
     scroll-behavior: smooth;
 }
+
 
 /* ==================================================================================================
  * HOME PAGE
@@ -16,9 +17,11 @@ html {
 h3 {
     color: var(--clcp);
 }
+
 .bg-grey {
     background-color: #f8f9fa;
 }
+
 
 /* Barner */
 
@@ -370,7 +373,6 @@ h3 {
     padding: 40px;
     position: relative;
     background-color: var(--cw);
-    
 }
 
 .services .square {
@@ -446,7 +448,6 @@ h3 {
     border-top: 3px solid rgb(0 169 211);
 }
 
-
 @media screen and (max-width:600px) {
     .video-background-holder {
         height: 80vh;
@@ -455,8 +456,9 @@ h3 {
         display: block;
     }
 }
+
 .anime {
-    transition: var(--trans,color .4s ease 0s);
+    transition: var(--trans, color .4s ease 0s);
 }
 
 .box {
@@ -471,11 +473,11 @@ h3 {
     padding: 2px 20px;
 }
 
-
-#contact a{
+#contact a {
     color: #000;
 }
-#contact .text_link:hover{
+
+#contact .text_link:hover {
     color: var(--clcp);
 }
 
@@ -485,10 +487,9 @@ h3 {
 
 .carde {
     border: 2px solid rgba(0, 0, 0, 0.206);
-    -webkit-box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78); 
-    box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78);
+    -webkit-box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, 0.78);
+    box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, 0.78);
 }
-
 
 .cd-top {
     display: inline-block;
@@ -533,34 +534,34 @@ h3 {
 
 :root {
     --card--front: cornflowerblue;
+}
 
-    }
-    .game {
+.game {
     position: relative;
     padding: 0.5em;
     padding-bottom: 27px;
     background-color: white;
     border: 2px solid rgba(0, 0, 0, 0.206);
-    -webkit-box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78); 
-    box-shadow: 1px 1px 13px 2px rgba(0,0,0,0.78);
-    }
+    -webkit-box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, 0.78);
+    box-shadow: 1px 1px 13px 2px rgba(0, 0, 0, 0.78);
+}
 
-    .game:hover{
-        box-shadow: none;
-        background-color: #f8f9fa;
-        border: none;
-    }
+.game:hover {
+    box-shadow: none;
+    background-color: #f8f9fa;
+    border: none;
+}
 
-    .front {
+.front {
     transition: 250ms;
-    }
+}
 
-    .front p {
+.front p {
     padding-bottom: 1em;
     color: black;
-    }
+}
 
-    .more__info {
+.more__info {
     position: absolute;
     top: 70%;
     max-height: 100px;
@@ -572,10 +573,10 @@ h3 {
     gap: 1.5em;
     align-items: center;
     padding: 0.5em;
-    transition: transform  250ms ease, opacity 100ms ease;  
-    }
+    transition: transform 250ms ease, opacity 100ms ease;
+}
 
-    .game:hover .more__info {
+.game:hover .more__info {
     z-index: 1000;
     margin-top: 50px;
     background: rgb(129, 100, 100);
@@ -586,6 +587,5 @@ h3 {
     transition: transform 250ms ease, opacity 150ms linear;
     transition: transform 250ms ease, opacity 150ms linear, -webkit-transform 250ms ease;
     -webkit-transform: translateY(0);
-            transform: translateY(0);  
-
-    }
+    transform: translateY(0);
+}
