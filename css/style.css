@@ -830,7 +830,6 @@ dfn {
     padding-bottom: 80px;
 }
 
-
 .section.overlap-bottom {
     position: relative;
     z-index: 100;
@@ -1408,8 +1407,6 @@ ul.circle li:before {
 .owl-theme .owl-dots .owl-dot:hover span {
     background: (--clcp);
 }
-
-
 
 
 /**
@@ -5307,7 +5304,8 @@ dl.hiw dd .team-2 .title,
       position: fixed;*/
     }
     .navbar-main .navbar-brand>img {
-        width: 60%;
+        width: 100%;
+        height: 85%;
     }
     .navbar-main .navbar-brand img {
         display: none;
@@ -5417,9 +5415,11 @@ dl.hiw dd .team-2 .title,
 .zone_serv:hover .fa-rounded {
     background: #b1291d;
 }
+
 .zone_serv:hover .serv h5 {
     color: #b1291d;
 }
+
 .icon-box-link {
     color: #b1291d;
 }
@@ -5491,8 +5491,8 @@ dl.hiw dd .team-2 .title,
 }
 
 .service i {
-    height: 36px; 
-    width : 36px;
+    height: 36px;
+    width: 36px;
 }
 
 .services .square {
@@ -5580,7 +5580,6 @@ dl.hiw dd .team-2 .title,
     color: #fff;
 }
 
-
 #rd {
     min-height: 20vh;
     color: white;
@@ -5630,9 +5629,11 @@ dl.hiw dd .team-2 .title,
     background-color: var(--clcp);
     border: 2px solid var(--clcp);
 }
+
 #projet {
     padding: 40px;
 }
-#projet img{
+
+#projet img {
     min-height: 270px;
 }
