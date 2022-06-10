@@ -5304,7 +5304,7 @@ dl.hiw dd .team-2 .title,
       position: fixed;*/
     }
     .navbar-main .navbar-brand>img {
-        width: 50%;
+        width: 100%;
         height: 85%;
     }
     .navbar-main .navbar-brand img {
