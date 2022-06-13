@@ -570,9 +570,9 @@ h3 {
     opacity: 0;
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    gap: 1.2em;
     align-items: center;
-    padding: 0.5em;
+    padding: 0;
     transition: transform 250ms ease, opacity 100ms ease;
 }
 
