@@ -1034,7 +1034,7 @@ h4,
 h5,
 .section-subheading {
     font-size: 14px;
-    line-height: 22px;
+    line-height: 30px;
 }
 
 h6 {
@@ -5404,7 +5404,7 @@ dl.hiw dd .team-2 .title,
 .fa-rounded {
     background: #0c1f38;
     color: white;
-    padding: 8% 8%;
+    padding: 7%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
