@@ -3811,14 +3811,14 @@ ul.circle li:before {
 }
 
 .navbar-main .nav>li>a {
-    color: #ffffff;
+      color: #ffffff;
 }
-
+  
 .navbar-main .nav>li.active>a,
 .navbar-main .nav>li>a:hover,
 .navbar-main .nav>li>a:focus {
-    color: #b1291d;
-    background-color: transparent;
+    background-color: red;
+    outline: none; /* Pour enlever la bordure bleu */
 }
 
 .navbar-main .nav .open>a,
@@ -5404,7 +5404,7 @@ dl.hiw dd .team-2 .title,
 .fa-rounded {
     background: #0c1f38;
     color: white;
-    padding: 8% 9%;
+    padding: 10% 9%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
