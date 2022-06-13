@@ -495,7 +495,7 @@ textarea {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 2.5;
 }
 
 h1,
@@ -885,7 +885,7 @@ dfn {
 
 .section-heading {
     font-size: 30px;
-    line-height: 1.2em;
+    line-height: 2;
     letter-spacing: -.05em;
     font-weight: 800;
     color: #000000;
@@ -5404,7 +5404,7 @@ dl.hiw dd .team-2 .title,
 .fa-rounded {
     background: #0c1f38;
     color: white;
-    padding: 10% 9%;
+    padding: 8% 8%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
