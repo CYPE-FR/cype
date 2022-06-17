@@ -27,6 +27,20 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
+<style>
+    .logo-main img {
+        width: 150px;
+        height: 59px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .logo-main img {
+            width: 150px;
+            height: 59px;
+        }
+    }
+</style>
+
 <body>
 
     <!-- Load page -->
@@ -75,17 +89,14 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                    <a class="navbar-brand logo-main" href="index.html">
-                        <img src="images/cypefrance.png" width="150" alt="" />
-                        <img src="images/cypefrance.png" width="150" alt="" class="logo-stiky" />
+                    <a class="navbar-brand logo-main" href="index.php">
+                        <img src="images/cypefrance.png" alt="" />
+                        <img src="images/cypefrance.png" alt="" class="logo-stiky" />
                     </a>
                     <nav class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown active">
-                                <a href="#accueil" class="dropdown-toggle anime">ACCUEIL</a>
-                            </li>
                             <li class="dropdown">
-                                <a href="#presentation" class="dropdown-toggle anime">PRESENTATION</a>
+                                <a href="#accueil" class="dropdown-toggle anime">ACCUEIL</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#services" class="dropdown-toggle anime">SERVICES</a>
@@ -99,10 +110,6 @@
                             <li class="dropdown">
                                 <a href="#contact" class="dropdown-toggle anime">CONTACT</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="test.html" class="dropdown-toggle anime">TEST</a>
-                            </li>
-
                             <li class="dropdown">
                                 <a href="https://cypecommunity.zendesk.com/hc/fr" class="btn btn-primary" target="_blank">SUPPORT TECHNIQUE</a>
                             </li>
@@ -138,38 +145,37 @@
                 <div class="col-sm-12 col-md-12">
                     <div class="overlap feature-gutter">
                         <div class="row">
-                            <a href="http://www.cype.fr/">
+                            <a href="http://www.cype.fr/" target="_blank">
                                 <div class="col-md-4 mb-3">
                                     <div class="game">
                                         <div class="front">
                                             <img src="images/cypecom.png" alt="rud" class="img-responsive pt-5">
                                         </div>
-                                        <div class="more__info">
-                                            <p>CYPE France</p>
+                                        <div class="more__info">La suite de logiciels AEC/BIM la plus complète du marché de la conception et des études techniques du bâtiment.</p>
                                         </div>
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://bimserver.center/fr/">
+                            <a href="https://bimserver.center/fr/" target="_blank">
                                 <div class="col-md-4 mb-3">
                                     <div class="game">
                                         <div class="front">
                                             <img src="images/bimserv.png" alt="rud" class="img-responsive pt-5">
                                         </div>
                                         <div class="more__info">
-                                            <p>BIMserver.center</p>
+                                            <p>La Plateforme de référence pour la gestion collaborative de projets BIM et applications AR/VR.</p>
                                         </div>
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://openbimsystems.com/fr">
+                            <a href="https://openbimsystems.com/fr" target="_blank">
                                 <div class="col-md-4 mb-3">
                                     <div class="game">
                                         <div class="front">
                                             <img src="images/openbim.png" alt="rud" class="img-responsive pt-5">
                                         </div>
                                         <div class="more__info">
-                                            <p>Openbimsystems</p>
+                                            <p>Notre service de prescription technique BIM pour les fabricants du secteur de la construction.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +204,7 @@
                     <div class="about-img pt-3">
                         <div class="about-img-bottom">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <img src="images/team.jpeg" class="img-responsive " alt="" srcset="">
+                                <img src="images/AdobeStock_229496255.jpeg" class="img-responsive " alt="" srcset="">
                             </div>
                         </div>
                     </div>
@@ -223,7 +229,7 @@
                     <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <a href="https://www.store.cype.com/fr/" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
-                                <img src="https://img.icons8.com/ios-filled/30/ffffff/shopping-cart.png"/> </span>
+                                <img src="https://img.icons8.com/ios-filled/40/ffffff/shopping-cart.png"/> </span>
                             </span>
                             <div class="serv mt-5">
                                 <h5>Boutique en ligne</h5>
@@ -233,7 +239,7 @@
                     <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <a href="https://www.flipsnack.com/cataloguecypefrance/catalogue-cype-france/full-view.html" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
-                                <img src="https://img.icons8.com/ios-filled/30/ffffff/graduation-cap"/> </span>
+                                <img src="https://img.icons8.com/ios-filled/40/ffffff/graduation-cap"/> </span>
                             </span>
                             <div class="serv del mt-5">
                                 <h5>Formation</h5>
@@ -243,9 +249,9 @@
                     <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <a href="https://cypecommunity.zendesk.com/hc/fr" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
-                                <img src="https://img.icons8.com/ios-filled/30/ffffff/headset.png"/> </span>
+                                <img src="https://img.icons8.com/ios-filled/40/ffffff/headset.png"/> </span>
                             <div class="serv mt-5">
-                                <h5>Support Technique</h5>
+                                <h5>Support technique</h5>
                             </div>
                         </a>
                     </div>
@@ -294,7 +300,7 @@
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/yves.png"></div>
                                 <div class="info-area">
-                                    <h4>Yves Menez</h4>
+                                    <h4>Yves Ménez</h4>
                                     <p>General Manager</p>
                                 </div>
                             </div>
@@ -308,7 +314,7 @@
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/maxime.png"></div>
                                 <div class="info-area">
-                                    <h4>Maxime le Meitour</h4>
+                                    <h4>Maxime Le Meitour</h4>
                                     <p>Technical Support Manager</p>
                                 </div>
                             </div>
@@ -322,7 +328,7 @@
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/christophe.png"></div>
                                 <div class="info-area">
-                                    <h4>Christophe Venez</h4>
+                                    <h4>Christophe Venet</h4>
                                     <p>Business Development Manager</p>
                                 </div>
                             </div>
@@ -344,7 +350,7 @@
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/hugo.png"></div>
                                 <div class="info-area">
                                     <h4>Hugo Lebissonnais</h4>
-                                    <p>Technical Suppor Junior</p>
+                                    <p>Technical Support Junior</p>
                                 </div>
                             </div>
                         </div>
@@ -430,20 +436,12 @@
                                 Contactez-nous
                             </div>
                             <ul class="list-info">
-                                <a class="text_link" href="https://www.google.com/maps/place/CYPE+France/@48.1311089,-1.7107159,12z/data=!4m19!1m13!4m12!1m4!2m2!1d-1.6406762!2d48.1311302!4e1!1m6!1m2!1s0x480edf256c9791a7:0xaee1af991438b0cc!2sCYPE+France,+12A+rue+du+Patis+Tatelin,+Immeuble+Vivalis,+1er+%C3%A9tage,+35700+Rennes,+France!2m2!1d-1.6406921!2d48.1311422!3m4!1s0x480edf256c9791a7:0xaee1af991438b0cc!8m2!3d48.1311422!4d-1.6406921">
-                                    <li>
-                                        <div class="info-icon">
-                                            <span class="fa fa-map-marker"></span>
-                                        </div>
-                                        <div class="info-text">12A rue du Patis Tatelin 35700 RENNES</div>
-                                    </li>
-                                </a>
                                 <a class="text_link" href="tel:+33230961744">
                                     <li>
                                         <div class="info-icon">
                                             <span class="fa fa-phone"></span>
                                         </div>
-                                        <div class="info-text">(+33) 02 30 96 17 44</div>
+                                        <div class="info-text">(+33) 2 30 96 17 44 </div>
                                     </li>
                                 </a>
                                 <a class="text_link" href="mailto:contact@cypefrance.com">
@@ -458,8 +456,16 @@
                                     <div class="info-icon">
                                         <span class="fa fa-clock-o"></span>
                                     </div>
-                                    <div class="info-text">Lundi - Vendredi 08:30 - 17:30</div>
+                                    <div class="info-text">8h30-12h / 14h-17h30 </br> Du lundi au vendredi </div>
                                 </li>
+                                <a class="text_link" href="http://plancypefrance.cype.fr/">
+                                    <li>
+                                        <div class="info-icon">
+                                            <span class="fa fa-map-marker"></span>
+                                        </div>
+                                        <div class="info-text">12 A rue du Patis Tatelin 35700 RENNES</div>
+                                    </li>
+                                </a>
                             </ul>
                         </div>
 
@@ -468,7 +474,7 @@
                         <div class="content">
                             <form method="POST">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="p_name" placeholder="Nom & prénoms" required>
+                                    <input type="text" class="form-control" name="p_name" placeholder="Nom" required>
                                 </div>
                                 <div class="form-group">
                                     <input type="email" class="form-control" name="p_email" placeholder="Email" required>
@@ -495,7 +501,7 @@
                                 Sujet : " . $_POST["p_subject"] . "
                                 Téléphone : " . $_POST["p_phone"] . "
                                 Message : " . $_POST["p_message"];
-                                $retour = mail("thonyabatan@gmail.com",$_POST["p_subject"],$message,"From:".$_POST["p_email"]."\r\n"."Reply-to:".$_POST["p_email"]);
+                                $retour = mail("contact@cypefrance.com",$_POST["p_subject"],$message,"From:".$_POST["p_email"]."\r\n"."Reply-to:".$_POST["p_email"]);
                                 if($retour){
                                     echo "<p>Votre message a été bien envoyé à notre équipe.</p>";
                                 }
@@ -543,7 +549,7 @@
                                     <em class="fa fa-linkedin"></em>
                                 </div>
                             </a>
-                            <a href="https://www.youtube.com/c/CYPEFRANCECessonS%C3%A9vign%C3%A9" title="">
+                            <a href="https://www.youtube.com/user/CYPEFrance" title="">
                                 <div class="item">
                                     <em class="fa fa-youtube"></em>
                                 </div>
@@ -557,7 +563,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <p class="text-center">Copyright © 2022 - Conception : Start up Cype.</p>
+                        <p class="text-center">Copyright © 2022 - Conception : CYPE France.</p>
                     </div>
                 </div>
             </div>
