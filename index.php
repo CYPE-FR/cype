@@ -141,50 +141,6 @@
     <!-- Description -->
     <div id="presentation" class="section feature">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12">
-                    <div class="overlap feature-gutter">
-                        <div class="row">
-                            <a href="http://www.cype.fr/" target="_blank">
-                                <div class="col-md-4 mb-3">
-                                    <div class="game">
-                                        <div class="front">
-                                            <img src="images/cypecom.png" alt="rud" class="img-responsive pt-5">
-                                        </div>
-                                        <div class="more__info">La suite de logiciels AEC/BIM la plus complète du marché de la conception et des études techniques du bâtiment.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://bimserver.center/fr/" target="_blank">
-                                <div class="col-md-4 mb-3">
-                                    <div class="game">
-                                        <div class="front">
-                                            <img src="images/bimserv.png" alt="rud" class="img-responsive pt-5">
-                                        </div>
-                                        <div class="more__info">
-                                            <p>La Plateforme de référence pour la gestion collaborative de projets BIM et applications AR/VR.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            <a href="https://openbimsystems.com/fr" target="_blank">
-                                <div class="col-md-4 mb-3">
-                                    <div class="game">
-                                        <div class="front">
-                                            <img src="images/openbim.png" alt="rud" class="img-responsive pt-5">
-                                        </div>
-                                        <div class="more__info">
-                                            <p>Notre service de prescription technique BIM pour les fabricants du secteur de la construction.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div id="pres_cype" class="row mt-4">
                 <div class="spacer-70"></div>
                 <div class="col-sm-5 col-md-5">
@@ -211,10 +167,58 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
-
         </div>
     </div>
     <!-- /Description  -->
+
+
+    <!--bouton-->
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <div class="overlap feature-gutter">
+                        <div class="row">
+                            <a href="http://www.cype.fr/" target="_blank">
+                                <div class="col-md-4 mb-3">
+                                    <div class="game">
+                                        <div class="front">
+                                            <img src="images/cypecom.png" alt="rud" class="img-responsive pt-5">
+                                        </div>
+                                        <div class="more__info">La suite de logiciels AEC/BIM la plus complète du marché de la conception et des études techniques du bâtiment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://bimserver.center/fr/" target="_blank">
+                                <div class="col-md-4 mb-3">
+                                    <div class="game">
+                                        <div class="front">
+                                            <img src="images/bimserv.png" alt="rud" class="img-responsive pt-5">
+                                        </div>
+                                        <div class="more__info">
+                                            <p>Plateforme de référence pour la gestion collaborative de projets BIM et applications AR/VR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://openbimsystems.com/fr" target="_blank">
+                                <div class="col-md-4 mb-3">
+                                    <div class="game">
+                                        <div class="front">
+                                            <img src="images/openbim.png" alt="rud" class="img-responsive pt-5">
+                                        </div>
+                                        <div class="more__info">
+                                            <p>Service de prescription technique BIM pour les fabricants du secteur de la construction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      
+    <!--bouton-->
+
 
     <!-- Services -->
     <section id="services">
@@ -271,12 +275,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-xs-12 text-center text-lg-start">
-                    <p class="h4">CYPE est une PME espagnole qui se consacre au développement de logiciels techniques destinés aux professionnels de l’Architecture et de l’Ingénierie de la Construction. Son activité principale est le développement d’applications basées
-                        sur des formats ouverts pour de nombreux domaines différents : performance énergétique, structures, architecture, ACV, acoustique, MEP, chiffrage, protection incendie, éclairage, gaz, urbanisme, télécommunications, sécurité et
-                        santé, etc.</p>
-                </div>
-                <div class="col-lg-12 col-xs-12 text-center">
-                    <a href="rd.html" class="cta-btn">Découvrez nos projets</a>
+                    <p class="h4">CYPE France est une PME française qui se consacre au développement et à la diffusion de logiciels techniques destinés aux professionnels de l’Architecture et de l’Ingénierie de la Construction, avec une expertise importante dans l’usage de formats ouverts d’échange pour adresser les différentes disciplines : rendu architectural, efficacité énergétique, calcul de structures, performance environnementale, simulation acoustique, métrés et chiffrages, simulation incendie, etc.
+CYPE France participe activement à des projets de R&D nationaux et internationaux pour faire avancer la connaissance et l’usage du travail collaboratif Open BIM pour la conception technique et durable de projets de construction.
+</p>
                 </div>
             </div>
         </div>
@@ -288,7 +289,7 @@
         <div class="container">
             <div class="col-sm-12 col-md-12">
                 <h2 class="section-heading center">
-                    EQUIPE CYPE FRANCE
+                    EQUIPE
                 </h2>
             </div>
         </div>
@@ -489,7 +490,7 @@
                                     <textarea name="p_message" class="form-control" rows="6" placeholder="Ecrivez votre message"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">ENVOYEZ</button>
+                                    <button type="submit" class="btn btn-primary">ENVOYER</button>
                                 </div>
                             </form>
                             <?php 
