@@ -1,5 +1,5 @@
 <?php 
-header('Location: index.html');
+header('Location: index.html#contact');
     //si le formulaire a été soumis
     if(isset($_POST["p_message"])){ 
         $message = "Ce message vous a été envoyé via la page contact du site vitrine 
