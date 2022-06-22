@@ -271,9 +271,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 col-xs-12 text-center text-lg-start">
-                    <p class="h4">CYPE France est une PME française qui se consacre au développement et à la diffusion de logiciels techniques destinés aux professionnels de l’Architecture et de l’Ingénierie de la Construction, avec une expertise importante dans l’usage de formats ouverts d’échange pour adresser les différentes disciplines : rendu architectural, efficacité énergétique, calcul de structures, performance environnementale, simulation acoustique, métrés et chiffrages, simulation incendie, etc.
-CYPE France participe activement à des projets de R&D nationaux et internationaux pour faire avancer la connaissance et l’usage du travail collaboratif Open BIM pour la conception technique et durable de projets de construction.
-</p>
+                    <p class="h4">CYPE France est une PME française qui se consacre au développement et à la diffusion de logiciels 
+                    techniques destinés aux professionnels de l’Architecture et de l’Ingénierie de la Construction, avec une expertise
+                    importante dans l’usage de formats ouverts d’échange pour adresser les différentes disciplines : rendu architectural,
+                    efficacité énergétique, calcul de structures, performance environnementale, simulation acoustique, métrés et chiffrages,
+                    simulation incendie, etc...</br>CYPE France participe activement à des projets de R&D nationaux et internationaux pour faire
+                    avancer la connaissance et l’usage du travail collaboratif Open BIM pour la conception technique et durable de projets de
+                    construction.
+                    </p>
                 </div>
             </div>
         </div>
@@ -299,7 +304,6 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                 <div class="info-area">
                                     <h4>Yves Ménez</h4>
                                     <p>General Manager</p>
-                                    <h6>Référent Structures</h6>
                                 </div>
                             </div>
 
@@ -324,8 +328,6 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                 <div class="info-area">
                                     <h4>Maxime Le Meitour</h4>
                                     <p>Responsable technique</p>
-                                    <h6>Référent Simulation</h6>
-
                                 </div>
                             </div>
 
@@ -351,7 +353,6 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                 <div class="info-area">
                                     <h4>Yacine Messaoudène</h4>
                                     <p>Ingénieur support et formation</p>
-                                    <h6>Référent Fluides</h6>
                                 </div>
                             </div>
 
@@ -359,9 +360,7 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/hugo.png"></div>
                                 <div class="info-area">
                                     <h4>Hugo Lebissonnais</h4>
-                                    <p>Technicien support et formation</p>
-                                    <h6>Référent Conception</h6>
-                                    
+                                    <p>Technicien support et formation</p>                                    
                                 </div>
                             </div>
                         </div>
