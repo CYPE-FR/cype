@@ -251,6 +251,9 @@ h3 {
     .our_solution_category .solution_cards_box {
         flex: 1;
     }
+    .game .more__info {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
