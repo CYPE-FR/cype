@@ -138,42 +138,10 @@
     </div>
     <!-- /Accueil -->
 
-    <!-- Description -->
-    <div id="presentation" class="section feature">
+<!-- Description -->
+<div id="presentation" class="section feature">
         <div class="container">
-            <div id="pres_cype" class="row mt-4">
-                <div class="spacer-70"></div>
-                <div class="col-sm-5 col-md-5">
-                    <div class="jumbo-heading">
-                        <h2><span class="tx-black">Expertise et</span> Innovation <span class="tx-black">au service de
-                                vos projets</span></h2>
-                    </div>
-                    <p>CYPE France est votre interlocuteur unique en France et représente l’éditeur de logiciels CYPE sur les trois marques que sont les logiciels CYPE, la plateforme BIMServer.center, et l’offre de service Open BIM Systems pour les fabricants.</p>
-                    <p>Notre équipe technique assure la formation et l’assistance auprès des professionnels français, leur garantissant une montée en compétence et une réactivité optimale pour la réalisation de leurs projets.</p>
-                    <div class="col-lg-2 col-xs-6">
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-lg-2 col-xs-6"></div>
-                    <div class="spacer-30"></div>
-                </div>
-                <div class="col-sm-7 col-md-7 pt-5">
-                    <div class="about-img pt-3">
-                        <div class="about-img-bottom">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <img src="images/AdobeStock_229496255.jpeg" class="img-responsive " alt="" srcset="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-    <!-- /Description  -->
-
-
-    <!--bouton-->
-            <div class="row">
+        <div class="row">
                 <div class="col-sm-12 col-md-12">
                     <div class="overlap feature-gutter">
                         <div class="row">
@@ -216,9 +184,37 @@
                     </div>
                 </div>
             </div>
-      
-    <!--bouton-->
 
+            <div id="pres_cype" class="row mt-4">
+                <div class="spacer-70"></div>
+                <div class="col-sm-5 col-md-5">
+                    <div class="jumbo-heading">
+                        <h2><span class="tx-black">Expertise et</span> Innovation <span class="tx-black">au service de
+                                vos projets</span></h2>
+                    </div>
+                    <p>CYPE France est votre interlocuteur unique en France et représente l’éditeur de logiciels CYPE sur les trois marques que sont les logiciels CYPE, la plateforme BIMServer.center, et l’offre de service Open BIM Systems pour les fabricants.</p>
+                    <p>Notre équipe technique assure la formation et l’assistance auprès des professionnels français, leur garantissant une montée en compétence et une réactivité optimale pour la réalisation de leurs projets.</p>
+                    <div class="col-lg-2 col-xs-6">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-lg-2 col-xs-6"></div>
+                    <div class="spacer-30"></div>
+                </div>
+                <div class="col-sm-7 col-md-7 pt-5">
+                    <div class="about-img pt-3">
+                        <div class="about-img-bottom">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <img src="images/AdobeStock_229496255.jpeg" class="img-responsive " alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+    </div>
+    <!-- /Description  -->
 
     <!-- Services -->
     <section id="services">
@@ -303,29 +299,37 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                 <div class="info-area">
                                     <h4>Yves Ménez</h4>
                                     <p>General Manager</p>
+                                    <h6>Référent Structures</h6>
                                 </div>
                             </div>
-                            <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/cecilia.png"></div>
-                                <div class="info-area">
-                                    <h4>Cecilia Climovich</h4>
-                                    <p>Administrative Manager</p>
-                                </div>
-                            </div>
-                            <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/maxime.png"></div>
-                                <div class="info-area">
-                                    <h4>Maxime Le Meitour</h4>
-                                    <p>Technical Support Manager</p>
-                                </div>
-                            </div>
+
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/achraf.png"></div>
                                 <div class="info-area">
                                     <h4>Achraf Khalfallah</h4>
-                                    <p>Account and Partnership Manager</p>
+                                    <p>Responsable relations clients et partenariats</p>
                                 </div>
                             </div>
+
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/cecilia.png"></div>
+                                <div class="info-area">
+                                    <h4>Cécilia Climovich</h4>
+                                    <p>Responsable administratif</p>
+                                </div>
+                            </div>
+
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/maxime.png"></div>
+                                <div class="info-area">
+                                    <h4>Maxime Le Meitour</h4>
+                                    <p>Responsable technique</p>
+                                    <h6>Référent Simulation</h6>
+
+                                </div>
+                            </div>
+
+                            
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/christophe.png"></div>
                                 <div class="info-area">
@@ -333,6 +337,7 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                     <p>Business Development Manager</p>
                                 </div>
                             </div>
+
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/nicolas.png"></div>
                                 <div class="info-area">
@@ -340,18 +345,23 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                                     <p>Business Developer</p>
                                 </div>
                             </div>
+
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/yacine.png"></div>
                                 <div class="info-area">
-                                    <h4>Yacine Messaoudene</h4>
-                                    <p>Technical Support Senior</p>
+                                    <h4>Yacine Messaoudène</h4>
+                                    <p>Ingénieur support et formation</p>
+                                    <h6>Référent Fluides</h6>
                                 </div>
                             </div>
+
                             <div class="single-box text-center">
                                 <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/hugo.png"></div>
                                 <div class="info-area">
                                     <h4>Hugo Lebissonnais</h4>
-                                    <p>Technical Support Junior</p>
+                                    <p>Technicien support et formation</p>
+                                    <h6>Référent Conception</h6>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -412,6 +422,22 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                         <div class="feature-box-7">
                             <div class="media">
                                 <img src="images/cstb.png" alt="rud" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="item">
+                        <div class="feature-box-7">
+                            <div class="media">
+                                <img src="images/untec.png" alt="rud" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 7 -->
+                    <div class="item">
+                        <div class="feature-box-7">
+                            <div class="media">
+                                <img src="images/effinergie.png" alt="rud" class="img-responsive">
                             </div>
                         </div>
                     </div>
