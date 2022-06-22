@@ -429,7 +429,7 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                     <div class="item">
                         <div class="feature-box-7">
                             <div class="media">
-                                <img src="images/untec.png" alt="rud" class="img-responsive">
+                                <img src="images/untecn.png" alt="rud" class="img-responsive">
                             </div>
                         </div>
                     </div>
@@ -437,7 +437,7 @@ CYPE France participe activement à des projets de R&D nationaux et internationa
                     <div class="item">
                         <div class="feature-box-7">
                             <div class="media">
-                                <img src="images/effinergie.png" alt="rud" class="img-responsive">
+                                <img src="images/effi.png" alt="rud" class="img-responsive">
                             </div>
                         </div>
                     </div>
