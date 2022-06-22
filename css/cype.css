@@ -251,9 +251,6 @@ h3 {
     .our_solution_category .solution_cards_box {
         flex: 1;
     }
-    .game .more__info {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -580,13 +577,12 @@ h3 {
 }
 
 .game:hover .more__info {
-    font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: large;
     z-index: 100;
     margin-top: 50px;
-    background: rgb(84, 77, 77);
+    background: rgb(129, 100, 100);
     color: white;
     opacity: 1;
     -webkit-transition: opacity 150ms linear, -webkit-transform 250ms ease;

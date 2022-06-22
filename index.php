@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CYPE France</title>
-    <meta name="description" content="CYPE est un éditeur de logiciels d’envergure internationale de près de 30 ans d’expérience dans le domaine de l’Architecture et de l’Ingénierie de la Construction.">
+    <meta name="description" content="CYPE France est votre interlocuteur unique pour la distribution, la formation et le support technique aux logiciels CYPE, BIMServer.center, et le service Open BIM Systems...">
     <meta name="keywords" content="construction, industrial, development, manufacture, engineering, architecture, assembly, build, foundation, infrastructure">
     <meta name="author" content="Start up Cype">
 
