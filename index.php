@@ -529,7 +529,7 @@
                                 Message : " . $_POST["p_message"];
                                 $retour = mail("contact@cypefrance.com",$_POST["p_subject"],$message,"From:".$_POST["p_email"]."\r\n"."Reply-to:".$_POST["p_email"]);
                                 if($retour){
-                                    echo "<p>Votre message a été bien envoyé à notre équipe.</p>";
+                                    echo "<p>Votre message a été bien envoyé à notre équipe.</p>";//doit apparaitre au niveau du contact
                                 }
                             }
                             ?>
