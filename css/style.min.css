@@ -613,7 +613,6 @@ var {
 }
 
 .section.overlap-bottom>.container {
-
     padding-top: 20px;
     padding-bottom: 0
 }
@@ -1243,7 +1242,7 @@ ul.circle li:before {
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url(../images/logo.png);
+    background-image: url("../images/logo.jpg");
     background-position: center;
     background-repeat: no-repeat
 }

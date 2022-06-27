@@ -28,9 +28,13 @@
 </head>
 
 <style>
+    
     .logo-main img {
-        width: 150px;
         height: 59px;
+    }
+
+    .logo-main .logo-stiky {
+        height: 55px;
     }
     
     @media screen and (max-width: 767px) {
@@ -40,7 +44,6 @@
         }
     }
 </style>
-
 <body>
 
     <!-- Load page -->
@@ -90,8 +93,8 @@
                         </button>
                     </div>
                     <a class="navbar-brand logo-main" href="index.php">
-                        <img src="images/cypefrance.png" alt="" />
-                        <img src="images/cypefrance.png" alt="" class="logo-stiky" />
+                        <img src="images/logo-cype-ligth.webp" alt="" />
+                        <img src="images/cype-logo-degradado.png" alt="" class="logo-stiky" />
                     </a>
                     <nav class="navbar-collapse collapse">
                         <ul class="nav navbar-nav navbar-right">
@@ -597,6 +600,28 @@
     </footer>
     <!-- /Footer -->
 
+
+    <!-- Modal -->
+    <!--
+    <button type="button " class="btn btn-primary " data-toggle="modal " data-target="#exampleModal ">
+        Launch demo modal
+    </button>
+    <div class="modal fade " id="exampleModal " tabindex="-1 " role="dialog " aria-labelledby="exampleModalLabel " aria-hidden="true ">
+        <div class="modal-dialog modal-dialog-centered " role="document ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel ">Message envoyé
+                        <button type="button " class="close text-rigth " data-dismiss="modal " aria-label="Close ">
+                            <span aria-hidden="true ">&times;</span>
+                        </button>
+                    </h5>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- /Modal -->
 
 
     <!-- JS VENDOR -->

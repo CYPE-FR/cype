@@ -807,7 +807,7 @@ dfn {
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -1462,7 +1462,7 @@ ul.circle li:before {
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -3811,14 +3811,16 @@ ul.circle li:before {
 }
 
 .navbar-main .nav>li>a {
-      color: #ffffff;
+    color: #ffffff;
 }
-  
+
 .navbar-main .nav>li.active>a,
 .navbar-main .nav>li>a:hover,
 .navbar-main .nav>li>a:focus {
     background-color: red;
-    outline: none; /* Pour enlever la bordure bleu */
+    color: white;
+    outline: none;
+    /* Pour enlever la bordure bleu */
 }
 
 .navbar-main .nav .open>a,
