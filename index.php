@@ -230,7 +230,7 @@
                         </h2>
                     </div>
                     <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                        <a href="https://www.store.cype.com/fr/" target="_blank">
+                        <a href="www.boutique.cypefrance.com" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
                                 <img src="https://img.icons8.com/ios-filled/40/ffffff/shopping-cart.png"/> </span>
                             </span>
@@ -240,7 +240,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                        <a href="https://www.flipsnack.com/cataloguecypefrance/catalogue-cype-france/full-view.html" target="_blank">
+                        <a href="www.formation.cypefrance.com" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
                                 <img src="https://img.icons8.com/ios-filled/40/ffffff/graduation-cap"/> </span>
                             </span>
@@ -303,7 +303,7 @@
                     <div class="col-lg-12">
                         <div class="team-slider owl-carousel">
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/yves.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Yves Ménez</h4>
                                     <p>General Manager</p>
@@ -311,7 +311,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/achraf.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Achraf Khalfallah</h4>
                                     <p>Responsable relations clients et partenariats</p>
@@ -319,7 +319,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/cecilia.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Cécilia Climovich</h4>
                                     <p>Responsable administratif</p>
@@ -327,7 +327,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/maxime.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Maxime Le Meitour</h4>
                                     <p>Responsable technique</p>
@@ -336,7 +336,7 @@
 
                             
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/christophe.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Christophe Venet</h4>
                                     <p>Business Development Manager</p>
@@ -344,7 +344,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/nicolas.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Marie France Nicolas</h4>
                                     <p>Business Developer</p>
@@ -352,7 +352,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/yacine.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Yacine Messaoudène</h4>
                                     <p>Ingénieur support et formation</p>
@@ -360,7 +360,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/hugo.png"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
                                 <div class="info-area">
                                     <h4>Hugo Lebissonnais</h4>
                                     <p>Technicien support et formation</p>                                    

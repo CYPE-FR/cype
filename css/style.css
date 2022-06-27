@@ -67,7 +67,7 @@ Version: 1.0
  * -----------------------------------------------------------------------------
  */
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto Condensedat:400,700,900");
 @font-face {
     font-family: 'walls-webfont';
     src: url("../fonts/walls-webfont.eot?51534236");
@@ -492,7 +492,7 @@ input,
 select,
 textarea {
     color: #222222;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.5;
@@ -755,24 +755,24 @@ td {
 
 ::-webkit-input-placeholder {
     color: #686868;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
 }
 
 :-moz-placeholder {
     color: #686868;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
 }
 
 ::-moz-placeholder {
     color: #686868;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
     opacity: 1;
     /* Since FF19 lowers the opacity of the placeholder by default */
 }
 
 :-ms-input-placeholder {
     color: #686868;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
 }
 
 html,
@@ -999,7 +999,7 @@ h4,
 .team-2 .title,
 h5,
 .section-subheading {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -1047,7 +1047,7 @@ b {
 }
 
 .lead {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Condensedat", sans-serif;
     font-weight: 500;
     line-height: 1.6;
 }
