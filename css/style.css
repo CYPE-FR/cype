@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-    --clcp: #b1291d;
+    --clcp: #cd202c;
 }
 
 
@@ -1527,12 +1527,12 @@ ul.circle li:before {
 }
 
 .btn-primary {
-    background-color: #b1291d;
+    background-color: #cd202c !important;
     color: #ffffff !important;
 }
 
 .btn-primary:hover {
-    background-color: #b1291d !important;
+    background-color: #cd202c !important;
     color: #ffffff !important;
 }
 
@@ -1546,12 +1546,12 @@ ul.circle li:before {
 }
 
 .btn-primary.disabled {
-    background-color: #b1291d !important;
+    background-color: #cd202c !important;
     border-color: #FFFFFF !important;
 }
 
 .btn-primary.disabled:hover {
-    background-color: #b1291d !important;
+    background-color: #cd202c !important;
     color: #ffffff !important;
 }
 
@@ -1608,7 +1608,7 @@ ul.circle li:before {
 }
 
 .pagination>.active>a {
-    background: #b1291d;
+    background: #cd202c;
     color: #222222;
 }
 
@@ -1618,7 +1618,7 @@ ul.circle li:before {
 .pagination>.active>span:hover,
 .pagination>.active>a:focus,
 .pagination>.active>span:focus {
-    background: #b1291d;
+    background: #cd202c;
     color: #222222;
 }
 
@@ -3738,7 +3738,7 @@ ul.circle li:before {
 }
 
 .navbar-toggle .icon-bar {
-    background: #b1291d;
+    background: #cd202c;
 }
 
 .navbar-toggle {
@@ -3828,7 +3828,7 @@ ul.circle li:before {
 .navbar-main .nav .open>a:focus {
     background-color: transparent;
     border-color: transparent;
-    color: #b1291d;
+    color: #cd202c;
 }
 
 .navbar-main .caret {
@@ -3904,13 +3904,13 @@ ul.circle li:before {
 }
 
 .header-1 .stiky .nav>li.active>a {
-    color: #b1291d;
+    color: #cd202c;
 }
 
 .header-1 .stiky .nav .open>a,
 .header-1 .stiky .nav .open>a:hover,
 .header-1 .stiky .nav .open>a:focus {
-    color: #b1291d;
+    color: #cd202c;
 }
 
 .social-icon li {
@@ -5415,15 +5415,15 @@ dl.hiw dd .team-2 .title,
 }
 
 .zone_serv:hover .fa-rounded {
-    background: #b1291d;
+    background: #cd202c;
 }
 
 .zone_serv:hover .serv h5 {
-    color: #b1291d;
+    color: #cd202c;
 }
 
 .icon-box-link {
-    color: #b1291d;
+    color: #cd202c;
 }
 
 .icon-box-link:hover {
@@ -5467,7 +5467,7 @@ dl.hiw dd .team-2 .title,
     height: 100%;
     width: 100%;
     z-index: 1;
-    background: #b1291d;
+    background: #cd202c;
     opacity: 0.2;
 }
 
@@ -5525,7 +5525,7 @@ dl.hiw dd .team-2 .title,
     top: 0;
     width: 1px;
     height: 100%;
-    background-color: #b1291d;
+    background-color: #cd202c !important;
     content: '';
 }
 
@@ -5535,7 +5535,7 @@ dl.hiw dd .team-2 .title,
     top: 66px;
     width: 1px;
     height: 88%;
-    background-color: #b1291d;
+    background-color: #cd202c !important;
     content: '';
     transform: rotate(90deg);
 }
@@ -5554,7 +5554,7 @@ dl.hiw dd .team-2 .title,
 }
 
 .services .serv h5 {
-    color: #b1291d;
+    color: #cd202c;
 }
 
 .services .serv p {
@@ -5575,7 +5575,7 @@ dl.hiw dd .team-2 .title,
     background-position: center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-color: #b1291d !important;
+    background-color: #cd202c !important;
 }
 
 #pres_cype p {

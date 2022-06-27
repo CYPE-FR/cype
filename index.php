@@ -11,7 +11,7 @@
     <meta name="author" content="Start up Cype">
 
     <!-- ===================== Links ===================== -->
-    <link rel="shortcut icon" href="images/logocp.png">
+    <link rel="shortcut icon" href="images/logo-cype-ligth.webp">
     <link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/vendor/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/vendor/owl.carousel.min.css">
@@ -556,7 +556,7 @@
             Calendly.initBadgeWidget({
                 url: 'https://calendly.com/thonyabatan/test1?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=b1291d',
                 text: 'Prendre un RDV',
-                color: '#b1291d',
+                color: '#cd202c',
                 textColor: '#ffffff',
                 branding: false
             });

@@ -1,5 +1,5 @@
 :root {
-    --clcp: #b1291d;
+    --clcp: #cd202c;
     --cg: rgb(249, 249, 249);
     --cw: white;
     --trans: color 0.4s ease 0s;
@@ -403,7 +403,7 @@ h3 {
     top: 0;
     width: 1px;
     height: 100%;
-    background-color: #b1291d;
+    background-color: #cd202c !important;
     content: '';
 }
 
@@ -413,7 +413,7 @@ h3 {
     top: 66px;
     width: 1px;
     height: 88%;
-    background-color: #b1291d;
+    background-color: #cd202c !important;
     content: '';
     transform: rotate(90deg);
 }
@@ -503,7 +503,7 @@ h3 {
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: #b1291d url("../images/cd-top-arrow.svg") no-repeat center 50%;
+    background: #cd202c url("../images/cd-top-arrow.svg") no-repeat center 50%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
