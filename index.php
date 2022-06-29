@@ -34,7 +34,7 @@
     }
 
     .logo-main .logo-stiky {
-        height: 55px;
+        height: 48px;
     }
     
     @media screen and (max-width: 767px) {
@@ -141,10 +141,10 @@
     </div>
     <!-- /Accueil -->
 
-<!-- Description -->
-<div id="presentation" class="section feature">
+    <!-- Description -->
+    <div id="presentation" class="section feature">
         <div class="container">
-        <div class="row">
+            <div class="row">
                 <div class="col-sm-12 col-md-12">
                     <div class="overlap feature-gutter">
                         <div class="row">
@@ -154,7 +154,8 @@
                                         <div class="front">
                                             <img src="images/cypecom.png" alt="rud" class="img-responsive pt-5">
                                         </div>
-                                        <div class="more__info">La suite de logiciels AEC/BIM la plus complète du marché de la conception et des études techniques du bâtiment.</p>
+                                        <div class="more__info">
+                                            <p>La suite de logiciels AEC/BIM la plus complète du marché de la conception et des études techniques du bâtiment.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +188,6 @@
                     </div>
                 </div>
             </div>
-
             <div id="pres_cype" class="row mt-4">
                 <div class="spacer-70"></div>
                 <div class="col-sm-5 col-md-5">
@@ -214,7 +214,6 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
-
         </div>
     </div>
     <!-- /Description  -->
@@ -229,20 +228,20 @@
                             SERVICES
                         </h2>
                     </div>
-                    <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                    <div class="col-md-4 zone_serv mb-3" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <a href="www.boutique.cypefrance.com" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
-                                <img src="https://img.icons8.com/ios-filled/40/ffffff/shopping-cart.png"/> </span>
+                                <img src="https://img.icons8.com/ios-filled/40/ffffff/shopping-cart.png"/>
                             </span>
                             <div class="serv mt-5">
                                 <h5>Boutique en ligne</h5>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-4 zone_serv" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                    <div class="col-md-4 zone_serv mb-3" data-aos="zoom-in-down" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <a href="www.formation.cypefrance.com" target="_blank">
                             <span class="fa-2x bg-white fa-rounded mt-3">
-                                <img src="https://img.icons8.com/ios-filled/40/ffffff/graduation-cap"/> </span>
+                                <img src="https://img.icons8.com/ios-filled/40/ffffff/graduation-cap"/>
                             </span>
                             <div class="serv del mt-5">
                                 <h5>Formation</h5>
@@ -303,7 +302,7 @@
                     <div class="col-lg-12">
                         <div class="team-slider owl-carousel">
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/yves.jpg"></div>
                                 <div class="info-area">
                                     <h4>Yves Ménez</h4>
                                     <p>General Manager</p>
@@ -311,7 +310,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/achraf.jpg"></div>
                                 <div class="info-area">
                                     <h4>Achraf Khalfallah</h4>
                                     <p>Responsable relations clients et partenariats</p>
@@ -319,7 +318,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/cecilia.jpg"></div>
                                 <div class="info-area">
                                     <h4>Cécilia Climovich</h4>
                                     <p>Responsable administratif</p>
@@ -327,7 +326,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/maxime.jpg"></div>
                                 <div class="info-area">
                                     <h4>Maxime Le Meitour</h4>
                                     <p>Responsable technique</p>
@@ -336,7 +335,7 @@
 
                             
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/christophe.jpg"></div>
                                 <div class="info-area">
                                     <h4>Christophe Venet</h4>
                                     <p>Business Development Manager</p>
@@ -344,7 +343,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/nicolas.jpg"></div>
                                 <div class="info-area">
                                     <h4>Marie France Nicolas</h4>
                                     <p>Business Developer</p>
@@ -352,7 +351,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/yacine.jpg"></div>
                                 <div class="info-area">
                                     <h4>Yacine Messaoudène</h4>
                                     <p>Ingénieur support et formation</p>
@@ -360,7 +359,7 @@
                             </div>
 
                             <div class="single-box text-center">
-                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/"></div>
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="images/hugo.jpg"></div>
                                 <div class="info-area">
                                     <h4>Hugo Lebissonnais</h4>
                                     <p>Technicien support et formation</p>                                    
@@ -487,7 +486,7 @@
                                     </div>
                                     <div class="info-text">8h30-12h / 14h-17h30 </br> Du lundi au vendredi </div>
                                 </li>
-                                <a class="text_link" href="http://plancypefrance.cype.fr/">
+                                <a class="text_link" href="http://www.plan.cypefrance.com/" target="_blank">
                                     <li>
                                         <div class="info-icon">
                                             <span class="fa fa-map-marker"></span>
@@ -501,7 +500,7 @@
                     </div>
                     <div class="col-sm-9 col-md-9">
                         <div class="content">
-                            <form method="POST">
+                            <form method="POST" action="trt/contact.php">
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="p_name" placeholder="Nom" required>
                                 </div>
@@ -521,21 +520,9 @@
                                     <button type="submit" class="btn btn-primary">ENVOYER</button>
                                 </div>
                             </form>
-                            <?php 
-                            //si le formulaire a été soumis
-                            if(isset($_POST["p_message"])){ 
-                                $message = "Ce message vous a été envoyé via la page contact du site vitrine 
-                                Nom : " . $_POST["p_name"] . "
-                                Email : " . $_POST["p_email"] . "
-                                Sujet : " . $_POST["p_subject"] . "
-                                Téléphone : " . $_POST["p_phone"] . "
-                                Message : " . $_POST["p_message"];
-                                $retour = mail("contact@cypefrance.com",$_POST["p_subject"],$message,"From:".$_POST["p_email"]."\r\n"."Reply-to:".$_POST["p_email"]);
-                                if($retour){
-                                    echo "<p>Votre message a été bien envoyé à notre équipe.</p>";//doit apparaitre au niveau du contact
-                                }
-                            }
-                            ?>
+                            <div class="col-12">
+                            <p style='text-align:center;color:#cd202c;width:100%;font-size:20px;'><em><?php if (isset($_GET['msg'])){echo $_GET['msg'];}?></em></p>
+                            </div>
                             <div class="margin-bottom-50"></div>
                         </div>
                     </div>
@@ -548,22 +535,18 @@
     </section>
     <!-- /Contacts Us -->
 
+
     <!-- Début de widget de badge Calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <script type="text/javascript">
-        window.onload = function() {
-            Calendly.initBadgeWidget({
-                url: 'https://calendly.com/thonyabatan/test1?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=b1291d',
-                text: 'Prendre un RDV',
-                color: '#cd202c',
-                textColor: '#ffffff',
-                branding: false
-            });
-        }
+    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ 
+        url: 'https://calendly.com/cypefrance/60min?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=cd202c', 
+        text: 'Prendre rdv', 
+        color: '#cd202c', 
+        textColor: '#ffffff', 
+        branding: false }); }
     </script>
     <!-- Fin de widget de badge Calendly -->
-
 
     <!-- Footer -->
     <footer class="footer container-fluid">
@@ -599,29 +582,6 @@
         </section>
     </footer>
     <!-- /Footer -->
-
-
-    <!-- Modal -->
-    <!--
-    <button type="button " class="btn btn-primary " data-toggle="modal " data-target="#exampleModal ">
-        Launch demo modal
-    </button>
-    <div class="modal fade " id="exampleModal " tabindex="-1 " role="dialog " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-        <div class="modal-dialog modal-dialog-centered " role="document ">
-            <div class="modal-content ">
-                <div class="modal-header ">
-                    <h5 class="modal-title " id="exampleModalLabel ">Message envoyé
-                        <button type="button " class="close text-rigth " data-dismiss="modal " aria-label="Close ">
-                            <span aria-hidden="true ">&times;</span>
-                        </button>
-                    </h5>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
-    <!-- /Modal -->
 
 
     <!-- JS VENDOR -->
