@@ -534,8 +534,7 @@
 
     </section>
     <!-- /Contacts Us -->
-
-
+e
     <!-- Début de widget de badge Calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>

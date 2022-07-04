@@ -9,7 +9,7 @@
         Message : " . $_POST["p_message"];
         $retour = mail("contact@cypefrance.com",$_POST["p_subject"],$message,"From:".$_POST["p_email"]."\r\n"."Reply-to:".$_POST["p_email"]);
         if($retour){
-            header("Location:../index.php?msg='Message envoyé'");
+            header("Location:../index.php#contact?msg=Message envoyé");
         }
     }
 ?>
